@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+<h3>Calculator</h3>
+<form action="" name="calc">
+<input type="text" name=number1>
+<input type="text" name="number2">
+<br>
+<br>
+<button type="button" value="+" onclick="alert(eval(document.calc.number1.value + document.calc.number2.value));" >Addition(+)</button>
+<button type="button" value="-">Subtraction(-)</button>
+<button type="button" value="*">Multiplication(x)</button>
+<button type="button" value="/">Division(/)</button>
+<p class="result"></p>
+</form>
+
+<script type="text/javascript" src=calc.js></script>
+</body>
+</html>
