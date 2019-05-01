@@ -10,15 +10,15 @@
 <body>
 <h3>Calculator</h3>
 <form action="" name="calc">
-<input type="text" name=number1>
-<input type="text" name="number2">
+<input type="number" id="number1">
+<input type="number"id="number2">
 <br>
 <br>
-<button type="button" value="+" onclick="alert(eval(document.calc.number1.value + document.calc.number2.value));" >Addition(+)</button>
-<button type="button" value="-">Subtraction(-)</button>
-<button type="button" value="*">Multiplication(x)</button>
-<button type="button" value="/">Division(/)</button>
-<p class="result"></p>
+<button type="button" value="+" onclick="addition()" >Addition(+)</button>
+<button type="button" value="-" onclick="subtraction()">Subtraction(-)</button>
+<button type="button" value="*" onclick="multiplication()">Multiplication(x)</button>
+<button type="button" value="/" onclick="division()">Division(/)</button>
+<p id="result"></p>
 </form>
 
 <script type="text/javascript" src=calc.js></script>
