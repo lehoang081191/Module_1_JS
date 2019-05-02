@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan" />
+    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/my-new-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/Game puzzle/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/Game puzzle/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/Game puzzle/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/Game puzzle/img/monkey_part2x1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/Game puzzle/img/panda_swap_part1x1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/Game puzzle/img/panda_swap_part3x1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/Game puzzle/img/panda_swap_part4x1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/Game puzzle/img/panda_swap_part5x1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/Game puzzle/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/Game puzzle/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/Game puzzle/js/jquery-1.12.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/Game puzzle/js/script.js" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,14 +30,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,10 +61,11 @@
         <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/MayTinhDonGian/functions.js" />
         <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/MayTinhDonGian/index.html" />
         <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/MayTinhDonGian/style.css" />
+        <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/GameDoYouLoveMe/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -57,7 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,12 +92,18 @@
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
               <item name="C3-CAUTRUCDIEUKIEN" type="462c0819:PsiDirectoryNode" />
-              <item name="MayTinhDonGian" type="462c0819:PsiDirectoryNode" />
+              <item name="GameDoYouLoveMe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+              <item name="TinhChiSoCanNangCuaCoThe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,17 +149,18 @@
       <option name="presentableId" value="Default" />
       <updated>1556779157265</updated>
       <workItem from="1556779160200" duration="12771000" />
-      <workItem from="1556800935435" duration="7323000" />
+      <workItem from="1556800935435" duration="7380000" />
+      <workItem from="1556811740279" duration="796000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20094000" />
+    <option name="totallyTimeSpent" value="20947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25372022" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25297618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -253,6 +278,13 @@
             <element signature="n#style#0;n#input#0;n#td#3;n#tr#3;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#td#0;n#tr#4;n#table#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/GameDoYouLoveMe/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
