@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SuKienChuot</title>
+</head>
+<body>
+<img id="myImage1" src="image.jpg" alt="" height="150" width="150">
+<p>Click button below to move the image</p>
+<input type="button" value="Click To Left" onclick="moveLeft()">
+<input type="button" value="Click To Up" onclick="moveUp()">
+<input type="button" value="Click To Right" onclick="moveRight()">
+<input type="button" value="Click To Down" onclick="moveDown()">
+    <script>
+        let imgObj1 = null;
+        imgObj1 = document.getElementById('myImage1');
+
+        function init() {
+            imgObj = document.getElementById('myImage1');
+            imgObj1.style.position = 'relative';
+            imgObj1.style.left = '0px';
+            imgObj1.style.top = '0px';
+        }
+
+        function moveLeft() {
+            imgObj1.style.left = parseInt(imgObj1.style.left) - 5 + 'px';
+        }
+        function moveRight() {
+            imgObj1.style.left = parseInt(imgObj1.style.left) + 5 + 'px';
+        }
+        function moveUp() {
+            imgObj1.style.top = parseInt(imgObj1.style.left) - 5 + 'px';
+        }
+        function moveDown() {
+            imgObj1.style.top = parseInt(imgObj1.style.left) + 5 + 'px';
+        }
+
+        window.onload = init();
+    </script>
+</body>
+</html>
