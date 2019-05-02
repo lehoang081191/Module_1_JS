@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinh so ngay trong thang</title>
+</head>
+<body>
+<input id="inputNumber" type="text" placeholder="Nhập tháng cần tính">
+<button type="button" onclick="howDays()">Tính số ngày</button>
+<p id="howManyDay"></p>
+    <script>
+     function howDays() {
+         let month = parseInt(document.getElementById('inputNumber').value) ;
+         switch(month){
+             case 1:
+                 document.getElementById('howManyDay').innerHTML = "Tháng 1 có 31 ngày";
+                 break;
+             case 2:
+                 document.getElementById('howManyDay').innerHTML = "Tháng 2 có 28 ngày";
+                 break;
+             case 3:
+             case 4:
+                 document.getElementById('howManyDay').innerHTML = "Tháng " + month + " có 30 ngày";
+                 break;
+             case 5:
+             case 6:
+                 document.getElementById('howManyDay').innerHTML = "Tháng " + month +  " có 29 ngày";
+                 break;
+             case 7:
+             case 8:
+             case 9:
+                 document.getElementById('howManyDay').innerHTML = "Tháng " + month + " có 29 ngày";
+                 break;
+             case 10:
+             case 11:
+             case 12:
+                 document.getElementById('howManyDay').innerHTML = "Tháng " + month + " có 30 ngày";
+                 break;
+             default:
+                 alert("Một năm chỉ có 12 tháng thôi, vui lòng nhập số từ 1 - 12");
+         }
+     }
+    </script>
+</body>
+</html>
