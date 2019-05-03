@@ -1,70 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan">
-      <change beforePath="$PROJECT_DIR$/BT-CauLenhSwitch-Case/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/GameDoYouLoveMe/doyou2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/GameDoYouLoveMe/doyouloveme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai03.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai04-cach2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai04.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai05.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai06.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai07.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/BAI04.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai03.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai05.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai06.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai07.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai08.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai09.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/MayTinhDonGian/functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/MayTinhDonGian/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/MayTinhDonGian/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapFor/ForLoop-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapFor/TH-SuDungVongLapFor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapWhile/bai01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapWhile/bai02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/C4-CAU-TRUC-LAP/nhanQdeThoatVongLap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChuyenDoiTienTe2/chuyendoitiente.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChuyenDoiTienTe2/chuyendoitiente.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChuyenDoiTienTe2/chuyendoitiente.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/KiemTraNamNhuan/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenTap-If-Else-If/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenTapSwitchCase/bai01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenTapSwitchCase/bai02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenTapSwitchCase/bai03.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenTapVoiCauTrucIfElse/ex01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenTapVoiToanTu/bai01-theoTaiLieu.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LuyenTapVoiToanTu/bai02.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NhungJavaScript.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuKienBanPhim/image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuKienBanPhim/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuKienChuot/image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuKienChuot/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SuKienChuot/trenduoitraiphai.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TH-KiemTraNamNhuan/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TinhChiSoCanNangCuaCoThe/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/calc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/calc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/calc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chuyentien.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/converter currency/chuyendoitiente.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/converter currency/chuyendoitiente.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/converter currency/chuyendoitiente.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hienthidaura.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/khaibaovasudungbien.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/khaibaovasudungbien2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/khiabaovasudungbien3.html" beforeDir="false" />
-    </list>
+    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -80,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/../3-5-2019/C4-CAU-TRUC-LAP/TH-SuDungVongLapDoWhile/dowhilesample.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -224,12 +161,12 @@
       <workItem from="1556779160200" duration="12771000" />
       <workItem from="1556800935435" duration="7380000" />
       <workItem from="1556811740279" duration="4968000" />
-      <workItem from="1556845133085" duration="14718000" />
+      <workItem from="1556845133085" duration="14991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39837000" />
+    <option name="totallyTimeSpent" value="40110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -550,7 +487,7 @@
     <entry file="file://$PROJECT_DIR$/../3-5-2019/C4-CAU-TRUC-LAP/TH-SuDungVongLapDoWhile/dowhilesample.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>
