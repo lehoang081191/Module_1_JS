@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,19 +14,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapFor/TH-SuDungVongLapFor.html">
+        <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapWhile/bai01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            <state relative-caret-position="170">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapFor/ForLoop-2.html">
+        <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapWhile/bai02.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="170">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -89,6 +87,8 @@
         <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/nhanQdeThoatVongLap.html" />
         <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapFor.html" />
         <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapFor/ForLoop-2.html" />
+        <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapWhile/bai01.html" />
+        <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapWhile/bai02.html" />
       </list>
     </option>
   </component>
@@ -131,6 +131,12 @@
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
               <item name="C4-CAU-TRUC-LAP" type="462c0819:PsiDirectoryNode" />
               <item name="TH-SuDungVongLapFor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+              <item name="C4-CAU-TRUC-LAP" type="462c0819:PsiDirectoryNode" />
+              <item name="TH-SuDungVongLapWhile" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
@@ -194,12 +200,12 @@
       <workItem from="1556779160200" duration="12771000" />
       <workItem from="1556800935435" duration="7380000" />
       <workItem from="1556811740279" duration="4968000" />
-      <workItem from="1556845133085" duration="11418000" />
+      <workItem from="1556845133085" duration="13218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36537000" />
+    <option name="totallyTimeSpent" value="38337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -484,8 +490,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapFor/ForLoop-2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="119">
+          <caret line="7" column="106" selection-start-line="7" selection-start-column="106" selection-end-line="7" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapWhile/bai01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapWhile/bai02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
