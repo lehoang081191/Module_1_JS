@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai07</title>
+</head>
+<body>
+    <script>
+      let a = parseFloat(prompt("Nhap a: "));
+      let b = parseFloat(prompt("Nhap b: "));
+      let c = parseFloat(prompt("Nhap c: "));
+      let delta = (b/2)*(b/2) - a * c ;
+      // document.write("Delta phẩy = " + delta);
+      if(delta < 0){
+          document.write("PT vo nghiem");
+      }else if (delta ===0){
+          let x = (-b/2)/a;
+          document.write("Pt co nghiem kep la: " + x);
+      }else{
+          x1 = ((-b/2) - Math.sqrt(delta))/a ;
+          x1 = ((-b/2) + Math.sqrt(delta))/a ;
+          document.write("Pt co 2 nghiem la : x1 =  " + x1 + " x2 = " + x2 );
+      }
+
+    </script>
+</body>
+</html>

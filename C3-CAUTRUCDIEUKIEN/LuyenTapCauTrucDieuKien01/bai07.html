@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai07</title>
+</head>
+<body>
+    <script>
+        //Bài 7: Tính cước điện thoại cho một hộ gia đình với các thông số đã cho
+        // let cuocDienThoai = soPhutGoi * 2000;
+        let soPhutGoi = parseFloat(prompt("Enter so phut goi", 0));
+
+        if(soPhutGoi < 5.00){
+           let cuocDienThoai = soPhutGoi * 2200;
+           document.write(cuocDienThoai);
+        }else {
+            cuocDienThoai = soPhutGoi * 3500;
+            document.write(cuocDienThoai);
+        }
+    </script>
+</body>
+</html>
