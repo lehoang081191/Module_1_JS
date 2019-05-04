@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai01</title>
+</head>
+<body>
+<form action="GET">
+    Nhập số: <input type="number" id="number" value="0">
+    <input type="button" value="In Kết Quả" onclick="printNumber()">
+</form>
+<div id="result"></div>
+
+<script>
+    function printNumber() {
+        let isNumber = parseInt(document.getElementById('number').value);
+        let text = "";
+        for (var i = 1; i <= isNumber; i++){
+            text = text + '</br>' + i;
+        }
+        document.getElementById('result').innerHTML = text;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cach2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main">
+    <fieldset class="form-kt">
+        <legend>Nhập vào một số bất kỳ</legend>
+        <input type="text" id="inputNumber">
+        <br>
+        <button type="button" id="kiemTra" onclick="kiemTraSnt()">Kiểm Tra</button>
+        <p id="result"></p>
+    </fieldset>
+</div>
+    <script>
+        function kiemTraSnt() {
+            var flag = true;
+            var isNumber = document.getElementById('inputNumber').value;
+            if (isNumber < 2) {
+                flag = false;
+            } else if (isNumber === 2) {
+                flag = true;
+            } else if (isNumber % 2 === 0) {
+                flag = false;
+            } else {
+                for (var i = 3; i < (isNumber - 1); i += 2) {
+                    if (isNumber % i === 0) {
+                        flag = false;
+                        break;
+                    }
+                }
+            }
+
+            if (flag = true){
+                document.write(isNumber + " là số nguyên tố");
+            }else{
+                document.write(isNumber + " không phải là số nguyên tố");
+            }
+        }
+    </script>
+
+</body>
+</html>

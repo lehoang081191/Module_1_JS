@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai11</title>
+</head>
+<body>
+    <script>
+        //Bài 11: Viết chương trình tính thuế thu nhập cá nhân.
+        let luongCaNhan = parseInt(prompt("Nhap luong ca nhan :"));
+        let thueMuc1 = 0.1;
+        let thueMuc2 = 0.15;
+        if (luongCaNhan < 9000000){
+            alert("Ban ko phai nop thue thu nhap ca nhan");
+        }else if(luongCaNhan < 20000000){
+            let soTienNopThue = luongCaNhan * thueMuc1;
+            alert("So tien ban phai nop la: " + soTienNopThue);
+        }else{
+            soTienNopThue = luongCaNhan * thueMuc2;
+            alert("So tien ban phai nop la: " + soTienNopThue);
+        }
+    </script>
+</body>
+</html>

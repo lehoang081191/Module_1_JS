@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai10</title>
+</head>
+<body>
+    <script>
+        //Bài 10: Viết chương trình tính giá điện.
+        let soThangTruoc = parseInt(prompt("Nhap so thang truoc"));
+        let soThangNay = parseInt(prompt("Nhap so thang truoc"));
+        let soChuDaDung = soThangNay - soThangTruoc;
+        if(soChuDaDung < 50){
+            let soTien = soChuDaDung * 2500;
+            document.write("So tien dien phai tra thang nay la: " + soTien);
+        }else{
+            soTien = soChuDaDung * 3500;
+            document.write("So tien dien phai tra thang nay la: " + soTien);
+        }
+    </script>
+</body>
+</html>
