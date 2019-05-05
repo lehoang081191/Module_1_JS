@@ -20,7 +20,7 @@
             let inputNumber = parseInt(prompt("Nhap gia tri ban muon doan tu 1 den trong khoang do"));
             let guessNumber = parseInt(prompt("bạn đoán số nào?"));
             let result = Math.random() * (guessNumber - inputNumber) + inputNumber;
-            result = Math.ceil(result);
+            result = Math.round(result);
             for (var i =0; i <= 3; i++) {
                 if (guessNumber === result){
                     alert("Chuc mung ban da doan dung!");
