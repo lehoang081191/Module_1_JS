@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In ra tam giác vuông</title>
+</head>
+<body>
+<!--<input type="button" value="In tam giác vuông" onclick="tamGiacVuong()">-->
+
+<script>
+        do {
+
+            let inNum = parseInt(prompt("Nhập sô cần in ra tam giác"));
+            if (inNum <= 0) {
+                alert("Bạn phải nhập số >0, vui lòng nhập lại!")
+                let inNum = parseInt(prompt("Nhập sô cần in ra tam giác"));
+            }
+
+            for (var i =1; i <= inNum ; i++){
+                for (var j = 1; j <= i; j++){
+                    document.write("*");
+                }
+                document.write("</br>");
+            }
+
+        }while (false);
+</script>
+</body>
+</html>

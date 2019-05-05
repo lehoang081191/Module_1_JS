@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính giai thừa của 1 số nguyên dương</title>
+</head>
+<body>
+<input type="button" value="Click To Find Factorial of Number" onclick="printFact()">
+<script>
+    function printFact() {
+        let num = parseInt(prompt("Nhap num:"));
+        document.write("Giai thừa của " + num + " là: " + findFact(num));
+    }
+
+    function findFact(num) {
+        var fact = 1;
+        for (var i = num; i > 0; i--)
+        {
+            fact = fact * i;
+        }
+        return fact;
+    }
+    
+    // do {
+    //     let num = parseInt(prompt("Enter a number:"));
+    //     if (num < 1){
+    //         alert("Bạn phải nhập số > 1");
+    //     }
+    // }while (num >= 1);
+    //
+    //     //Tính giai thừa
+    // for (var  i =1 ; i <= num ; i ++)
+    // {
+    //        let gt = gt * i;
+    // }
+    //
+    // document.write("Giai thùa của 1 số nguyên dương là : " + gt);
+
+</script>
+</body>
+</html>

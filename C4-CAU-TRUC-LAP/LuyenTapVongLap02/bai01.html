@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In day Fibobaci</title>
+</head>
+<body>
+<input type="button" value="click Fibonaci" onclick="printFibonaci()">
+<script>
+
+    function printFibonaci() {
+        let num = parseInt(prompt("Nhap num:"));
+        document.write(fibonaci(num));
+    }
+
+    function fibonaci(num) {
+        var a =1 , b = 0, temp;
+        while (num >= 0){
+            temp = a;
+            a = a + b;
+            b += temp;
+            num --;
+        }
+        return b;
+    }
+
+
+</script>
+</body>
+</html>
