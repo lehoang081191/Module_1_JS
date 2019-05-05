@@ -13,29 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/LuyenTapVongLap02/bai01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/LuyenTapVongLap02/bai02.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/LuyenTapVongLap02/bai03.html">
+        <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/SinhBangCuuChuong/BangCuuChuong.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="8" />
+            <state relative-caret-position="340">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -57,7 +39,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai04.html" />
         <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai04-canh2.html" />
         <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai04-cach2.html" />
         <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai05.html" />
@@ -108,6 +89,7 @@
         <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/LuyenTapVongLap02/bai01.html" />
         <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/LuyenTapVongLap02/bai02.html" />
         <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/LuyenTapVongLap02/bai03.html" />
+        <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/SinhBangCuuChuong/BangCuuChuong.html" />
       </list>
     </option>
   </component>
@@ -157,7 +139,7 @@
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
               <item name="C4-CAU-TRUC-LAP" type="462c0819:PsiDirectoryNode" />
-              <item name="LuyenTapVongLap02" type="462c0819:PsiDirectoryNode" />
+              <item name="SinhBangCuuChuong" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
@@ -226,12 +208,12 @@
       <workItem from="1556932513889" duration="14664000" />
       <workItem from="1556952637974" duration="8401000" />
       <workItem from="1557041349927" duration="572000" />
-      <workItem from="1557056487211" duration="7026000" />
+      <workItem from="1557056487211" duration="9046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72755000" />
+    <option name="totallyTimeSpent" value="74775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -265,7 +247,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add kiem tra nam nhuan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai04-cach2.html" />
     <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai04.html" />
     <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai03.html" />
     <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai06.html" />
@@ -473,8 +454,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/LuyenTapVongLap02/bai03.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="425">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/SinhBangCuuChuong/BangCuuChuong.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
         </state>
       </provider>
     </entry>
