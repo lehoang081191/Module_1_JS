@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h4>Tính tổng các số chẵn từ 0 tới n bằng cách sử dụng vòng lặp while trong javascript</h4>
+<script>
+  function tinhTong(n) {
+      let tong = 0;
+      let index = 0;
+      while (index <= n){
+          if (index % 2 === 0){
+              tong += index;
+          }
+          index++;
+      }
+      return tong;
+  }
+  var n = parseInt(prompt("Nhập số cần kiểm tra"));
+  document.write("Tổng số chẵn từ 1 tới " + n + " là: " +tinhTong(n));
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai8-Game Đoán số</title>
+    <style>
+        .main{
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <fieldset>
+        <legend>Game đoán số</legend>
+        <input type="button" id="play" value="CHƠI" onclick="playGame()">
+    </fieldset>
+    <script>
+        function playGame() {
+            let inputNumber = parseInt(prompt("Nhap gia tri ban muon doan tu 1 den trong khoang do"));
+            let guessNumber = parseInt(prompt("bạn đoán số nào?"));
+            let result = Math.random() * (guessNumber - inputNumber) + inputNumber;
+            result = Math.ceil(result);
+            for (var i =0; i <= 3; i++) {
+                if (guessNumber === result){
+                    alert("Chuc mung ban da doan dung!");
+                    break;
+                } else if (guessNumber < result){
+                    alert("Số bạn chọn nhỏ hơn kết quả, vui lòng chọn lại!");
+                    guessNumber = parseInt(prompt("bạn đoán số nào?"));
+                }else{
+                    alert("Số bạn chọn lớn hơn kết quả, vui lòng chọn lại!");
+                    guessNumber = parseInt(prompt("bạn đoán số nào?"));
+                }
+            }
+        }
+    </script>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai02</title>
+</head>
+<body>
+<!--<h4>Bài 02: Cho trước danh sách cấu trúc HTML như dưới đây. Hãy sử dụng Javascript xóa đi các thẻ div có vị trí chẵn.</h4>-->
+<div>Lẻ</div>
+<div>Chẵn</div>
+<div>Lẻ</div>
+<div>Chẵn</div>
+<div>Lẻ</div>
+<div>Chẵn</div>
+<div>Lẻ</div>
+<div>Chẵn</div>
+<div>Lẻ</div>
+<div>Chẵn</div>
+<div>Lẻ</div>
+<button onclick="deleteElement()">Remove</button>
+<script>
+    function deleteElement()
+    {
+        // Danh sách thẻ div
+        var elements = document.getElementsByTagName('div');
+
+        // Mảng chứa thẻ cần xóa
+        var elements_remove = [];
+
+        // Lặp để lấy thẻ div cần xóa
+        var index = 0;
+        while (index < elements.length){
+            if (index % 2 != 0 && index != 0){
+                elements_remove.push(elements[index]);
+            }
+            index++;
+        }
+
+        // Thực hiện xóa
+        index = 0;
+        while (index < elements_remove.length){
+            elements_remove[index].remove();
+            index++;
+        }
+    }
+</script>
+</body>
+</html>

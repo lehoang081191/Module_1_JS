@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai03</title>
+    <style type="text/css">
+        div {
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<h4>Bài 03: Cho 10 thẻ div, hãy viết chương trình khi click vào button thì sẽ đổi màu cho các thẻ div.
+    Nếu div nào vị trí chẵn thì background màu đỏ và lẽ thì background màu xanh.</h4>
+<div>Thẻ thứ 1</div>
+<div>Thẻ thứ 1</div>
+<div>Thẻ thứ 1</div>
+<div>Thẻ thứ 1</div>
+<div>Thẻ thứ 1</div>
+<div>Thẻ thứ 1</div>
+<div>Thẻ thứ 1</div>
+<div>Thẻ thứ 1</div>
+<div>Thẻ thứ 1</div>
+<div>Thẻ thứ 1</div>
+<button type="button" onclick="changeBackground()" >Change Background</button>
+
+<script>
+    function changeBackground() {
+        let divs = document.getElementsByTagName('div');
+        for (var i=0; i < divs.length; i++ ){
+            if ((i+1)% 2===0){
+                divs[i].style.background = "red";
+            }else{
+                divs[i].style.background = "blue";
+            }
+        }
+    }
+</script>
+</body>
+</html>
