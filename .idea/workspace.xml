@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan" />
+    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan">
+      <change beforePath="$PROJECT_DIR$/C4-CAU-TRUC-LAP/SinhBangCuuChuong/BangCuuChuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/C4-CAU-TRUC-LAP/SinhBangCuuChuong/BangCuuChuong.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/SinhBangCuuChuong/BangCuuChuong.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="254">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -93,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="28" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
@@ -208,15 +210,15 @@
       <workItem from="1556932513889" duration="14664000" />
       <workItem from="1556952637974" duration="8401000" />
       <workItem from="1557041349927" duration="572000" />
-      <workItem from="1557056487211" duration="9046000" />
+      <workItem from="1557056487211" duration="12266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74775000" />
+    <option name="totallyTimeSpent" value="77995000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25669643" />
@@ -461,8 +463,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/SinhBangCuuChuong/BangCuuChuong.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="254">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
         </state>
       </provider>
     </entry>

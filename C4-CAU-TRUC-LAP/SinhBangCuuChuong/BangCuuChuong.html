@@ -8,8 +8,8 @@
 <!--<table border="1">-->
 <!--<tr>-->
 <!--    <td>2 x 1 = 2</td>-->
-<!--    <td>2 x 1 = 2</td>-->
-<!--    <td>2 x 1 = 2</td>-->
+<!--    <td>3 x 1 = 2</td>-->
+<!--    <td>4 x 1 = 2</td>-->
 <!--    <td>2 x 1 = 2</td>-->
 <!--    <td>2 x 1 = 2</td>-->
 <!--    <td>2 x 1 = 2</td>-->
@@ -19,8 +19,8 @@
 <!--</tr>-->
 <!--    <tr>-->
 <!--        <td>2 x 2 = 4</td>-->
-<!--        <td>2 x 1 = 2</td>-->
-<!--        <td>2 x 1 = 2</td>-->
+<!--        <td>3 x  = 2</td>-->
+<!--        <td>4 x 1 = 2</td>-->
 <!--        <td>2 x 1 = 2</td>-->
 <!--        <td>2 x 1 = 2</td>-->
 <!--        <td>2 x 1 = 2</td>-->
@@ -31,16 +31,16 @@
 <!--</table>-->
 <script>
     let sout;
-    sout = "<table border ='1'>";
-    for (var i =2; i <=9;i++){
-        sout = sout + "<tr>";
+    sout = "<table border ='1'> <tr>";
+    for (var i =2; i <= 9; i++){
+        sout = sout + "<td>";
         for (var j =1; j <= 9; j++){
-        sout = sout + "<td>" + i  + " x "  + j  + " = " + i * j + "</td>";
+        sout = sout + i + ' x ' + j + " = " +  i * j + "</br>";
         }
-        sout = sout + "</tr>";
+        sout = sout + "</td>";
     }
 
-    sout += "</table>";
+    sout += "</tr> </table>";
     document.write(sout);
 </script>
 </body>
