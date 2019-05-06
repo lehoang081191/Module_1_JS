@@ -13,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TimGiaTriTrongMang.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TimGiaTriLonNhatTrongMang.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -39,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai03.html" />
         <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/BAI04.html" />
         <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai05.html" />
         <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai06.html" />
@@ -90,6 +98,7 @@
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TaoVaThaoTacVoiMang/arrayElement.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/TH-DaoNguocCacPhanTuTrongMang.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TimGiaTriTrongMang.html" />
+        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TimGiaTriLonNhatTrongMang.html" />
       </list>
     </option>
   </component>
@@ -209,12 +218,12 @@
       <workItem from="1556952637974" duration="8401000" />
       <workItem from="1557041349927" duration="572000" />
       <workItem from="1557056487211" duration="16717000" />
-      <workItem from="1557106923111" duration="8749000" />
+      <workItem from="1557106923111" duration="9880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91195000" />
+    <option name="totallyTimeSpent" value="92326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -248,7 +257,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add kiem tra nam nhuan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai07.html" />
     <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai08.html" />
     <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai10.html" />
     <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai09.html" />
@@ -517,6 +525,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TimGiaTriLonNhatTrongMang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
