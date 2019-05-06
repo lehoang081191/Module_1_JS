@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan">
-      <change beforePath="$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TaoVaThaoTacVoiMang/arrayElement.html" beforeDir="false" afterPath="$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TaoVaThaoTacVoiMang/arrayElement.html" afterDir="false" />
-    </list>
+    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,29 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TaoVaThaoTacVoiMang/arrayElement.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-DaoNguocCacPhanTuTrongMang.html">
+        <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TimGiaTriTrongMang.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TaoVaThaoTacVoiMang/arrayElement2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="238">
+              <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -59,7 +39,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai02.html" />
         <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai03.html" />
         <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/BAI04.html" />
         <option value="$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai05.html" />
@@ -110,6 +89,7 @@
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TaoVaThaoTacVoiMang/arrayElement2.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TaoVaThaoTacVoiMang/arrayElement.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/TH-DaoNguocCacPhanTuTrongMang.html" />
+        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TimGiaTriTrongMang.html" />
       </list>
     </option>
   </component>
@@ -229,12 +209,12 @@
       <workItem from="1556952637974" duration="8401000" />
       <workItem from="1557041349927" duration="572000" />
       <workItem from="1557056487211" duration="16717000" />
-      <workItem from="1557106923111" duration="7880000" />
+      <workItem from="1557106923111" duration="8749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90326000" />
+    <option name="totallyTimeSpent" value="91195000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -268,7 +248,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add kiem tra nam nhuan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai06.html" />
     <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai07.html" />
     <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai08.html" />
     <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai10.html" />
@@ -513,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TaoVaThaoTacVoiMang/arrayElement2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TaoVaThaoTacVoiMang/arrayElement.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -530,7 +502,21 @@
     <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-DaoNguocCacPhanTuTrongMang.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TaoVaThaoTacVoiMang/arrayElement2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TimGiaTriTrongMang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
         </state>
       </provider>
     </entry>
