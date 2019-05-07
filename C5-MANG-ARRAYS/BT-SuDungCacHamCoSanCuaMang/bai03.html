@@ -6,14 +6,56 @@
 </head>
 <body>
 <script>
-    let chuoi = prompt("Nhap vao 1 cau");
-    let str = chuoi.toString();
-    const UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    const LOWER = 'abcdefghijklmnopqrstuvwxyz';
-    const result = [];
-    for (let i = 0; i < str.length; i ++){
-        if ()
-    } 
+    //CACH 1:
+    // var str = [];
+    // var UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    // var LOWER = 'abcdefghijklmnopqrstuvwxyz';
+    // var result = [];
+    //
+    // for(var x=0; x<str.length; x++)
+    // {
+    //     if(UPPER.indexOf(str[x]) !== -1)
+    //     {
+    //         result.push(str[x].toLowerCase());
+    //     }
+    //     else if(LOWER.indexOf(str[x]) !== -1)
+    //     {
+    //         result.push(str[x].toUpperCase());
+    //     }
+    //     else
+    //     {
+    //         result.push(str[x]);
+    //     }
+    // }
+    // document.write(result.join(''));
+
+    //CACH 2:
+    // function swapCase(str) {
+    //     let modStr = '';
+    //     const ranges = ['a', 'z', 'A', 'Z'].map(el => el.charCodeAt(0));
+    //     const [a, z, A, Z] = ranges;
+    //     for (let letter of str) {
+    //         let c = letter.charCodeAt(0)
+    //         switch (true) {
+    //             case c >= a && c <= z:
+    //                 modStr += String.fromCharCode(c - a + A);
+    //                 break;
+    //             case c >= A && c <= Z:
+    //                 modStr += String.fromCharCode(c - A + a);
+    //                 break;
+    //             default:
+    //                 modStr += letter;
+    //         }
+    //     }
+    //     return modStr;
+    // }
+    // const str = 'The Quick Brown Fox';
+    // console.log(swapCase(str));
+
+    //CANH 3:
+    str = 'The Quick Brown Fox';
+    const invertCase = str => str.replace(/\w{1}/g, ch => ch.match(/[a-z]/) ? ch.toUpperCase() : ch.toLowerCase());
+    document.write(invertCase(str));
 </script>
 </body>
 </html>

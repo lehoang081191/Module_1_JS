@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai04</title>
+</head>
+<body>
+<h3>Bài 4- Viết chương trình khởi tạo/nhập vào một mảng số nguyên và đảo ngược các phần tử trong mảng đó.</h3>
+<script>
+    let array = [34,69,12,4,73,102,-4,57];
+    document.write(array+ "<br/>")
+
+    let first = 0;
+    let last = array.length - 1;
+
+    while (first < last){
+        let temp = array[first];
+        array[first] = array[last];
+        array[last]= temp;
+
+        first++;
+        last--;
+    }
+    document.write("Mảng sau khi được sắp xếp là: "+ array);
+</script>
+</body>
+</html>
