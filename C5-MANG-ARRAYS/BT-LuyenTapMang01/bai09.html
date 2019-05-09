@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai09</title>
+</head>
+<body>
+<!--Bài 9- Viết chương trình khởi tạo/nhập vào 2 mảng số nguyên gồm 10 phần tử, gọi là mảng a và b.-->
+<!--Mảng c là một mảng được khai báo gồm 20 phần tử số nguyên. Chương trình sẽ lưu các phần tử được nối -->
+<!--từ hai mảng b và a vào mảng c. Hiển thị mảng c.-->
+<div class="main">
+    <input type="text" id="inputToArrayA" placeholder="Nhap vao mang 10 phan tu">
+    <button type="button" onclick="addToArraysA()">Add Array A</button>
+    <div id="displayArrayA"></div>
+    <br>
+    <input type="text" id="inputToArrayB" placeholder="Nhap vao mang 10 phan tu">
+    <button type="button" onclick="addToArraysB()">Add Array B</button>
+    <div id="displayArrayB"></div>
+    <br>
+    <div id="displayArrayC"></div>
+    <br>
+    <input type="button" value="Trộn mảng A, B vào C" onclick="mixArrayA_And_B_IntoC()">
+    <div id="result"></div>
+
+
+</div>
+</body>
+<script>
+    let arrayA = new Array();
+    let arrayB = new Array();
+    let arrayC = [2,45,74,105,64,7,41,98,57,32,8,24,45,79,75,65,24,58,87];
+    let x = 0;
+    let y = 0;
+    let z = 0
+
+    document.getElementById('displayArrayC').innerHTML= "arrayC = [" + arrayC + "]";
+
+    function addToArraysA() {
+        arrayA[x] = document.getElementById('inputToArrayA').value;
+        x++;
+        document.getElementById('inputToArrayA').value = "";
+        document.getElementById('displayArrayA').innerHTML = arrayA;
+    }
+    function addToArraysB() {
+        arrayB[y] = document.getElementById('inputToArrayB').value;
+        y++;
+        document.getElementById('inputToArrayB').value = "";
+        document.getElementById('displayArrayB').innerHTML = arrayB;
+    }
+
+    function mixArrayA_And_B_IntoC() {
+        arrayC = arrayC.concat(arrayA,arrayB);
+        document.getElementById('result').innerHTML = "Mảng C sau khi trộn mảng A và B vào là: " + arrayC;
+    }
+
+    //LÀM THÊM: Nếu bài toán yêu cầu trộn mảng a, b vào c theo thứ tự tăng dần::
+
+    // function mixArrayA_And_B_IntoC(){
+    //     while((x < arrayB.length) && (y < arrayB.length))
+    //     {
+    //         if(arrayA[x] < arrayB[y])
+    //         {
+    //             arrayC = arrayA[x];
+    //             arrayC.length++; // số lượng phần tử mảng c tăng lên 1
+    //             x++; // chỉ số mảng a tăng lên - để tiếp tục lấy phần tử kế tiếp so sánh với arrayB[y]
+    //         }
+    //         else // <=> if(arrayA[x] >= arrayB[y])
+    //         {
+    //             arrayC = arrayB[y];
+    //             arrayC.length++; // số lượng phần tử mảng c tăng lên 1
+    //             y++; // chỉ số mảng b tăng lên - để tiếp tục lấy phần tử kế tiếp so sánh với arrayA[x]
+    //         }
+    //     }
+    //     // duyệt vòng lặp mảng a để bỏ hết các phần tử còn lại
+    //     for(; x < arrayA.length; x++)
+    //     {
+    //         arrayC = arrayA[x];
+    //         arrayC.length++;
+    //     }
+    //     // duyệt vòng lặp mảng b để bỏ hết các phần tử còn lại
+    //     for(; y < arrayB.length; y++)
+    //     {
+    //         arrayC = arrayB[y];
+    //         arrayC.length++;
+    //     }
+    //
+    //     document.getElementById('result').innerHTML = arrayC;
+
+</script>
+</html>

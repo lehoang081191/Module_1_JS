@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai08</title>
+</head>
+<body>
+<!--Bài 8- Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử. Chương trình sắp xếp mảng theo-->
+<!--thứ tự giảm dần và hiển thị ra mảng đã được sắp xếp.-->
+<input type="text" id="inputToArray" placeholder="Nhap vao mang 10 phan tu">
+<button type="button" onclick="addToArrays()">ADD</button>
+<button type="button" onclick="sapXepGiamDan()">Hiển thị mảng sau khi sắp xếp giảm dần</button>
+<div id="displayArray"></div>
+</body>
+<script>
+    let array = new Array();
+    let x = 0;
+
+    function addToArrays() {
+        array[x] = document.getElementById('inputToArray').value;
+        alert("Phần tử " + array[x] + " đã được thêm vào vị trí " + x + " trong mảng");
+        x++;
+        document.getElementById('inputToArray').value = "";
+    }
+
+    function sapXepGiamDan() {
+        document.getElementById('displayArray').innerHTML = "Mảng sau khi sắp xếp giảm dần là: " +
+            array.sort(function(a, b){return b - a});
+    }
+
+
+
+
+</script>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai06</title>
+</head>
+<body>
+<!--Bài 6- Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo phần tử số nguyên V. -->
+<!--Chương trình tìm xem V có nằm trong mảng số nguyên không? Nếu V thuộc mảng số nguyên thì in ra "V is in the array" -->
+<!--còn lại in ra "V is not in the array".-->
+<div class="main">
+    Nhập vào lần lượt các số trong mảng:<input type="text" id="inputArray">
+    <input type="button" value="Thêm vào mảng" onclick="themVaoMang()">
+    <div id="displayArray"></div>
+    <br>
+    Nhập 1 số nguyên: <input type="text" id="inputSoNguyen">
+    <input type="button" value="Kiểm tra V có trong mảng không?" onclick="kiemTraV()">
+
+
+</div>
+</body>
+<script>
+
+    let array = Array();
+    let x = 0;
+
+    function themVaoMang(){
+        array[x] = document.getElementById('inputArray').value;
+        document.getElementById('inputArray').value = "";
+        x++;
+        document.getElementById('displayArray').innerHTML = array;
+    }
+
+
+    function kiemTraV() {
+        let isV = document.getElementById('inputSoNguyen').value;
+        let count = 0;  //so lan phan tu j xuat hien trong mang
+        for (let i = 0; i < array.length; i++){
+            if (isV == array[i]){
+                count ++;  //neu = thi tang count len 1 don vi
+            }
+        }
+        
+        if (count == 0 ){
+            alert(isV + " is not the array");
+        }else{
+            alert(isV + " is in the array");
+        }
+    }
+
+</script>
+</html>

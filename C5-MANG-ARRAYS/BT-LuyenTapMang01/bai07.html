@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai07</title>
+</head>
+<body>
+<!--Bài 7- Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo phần tử số nguyên V.-->
+<!--Chương trình kiểm tra xem V có thuộc mảng đã cho không, nếu V thuộc mảng đã cho xoá V khỏi mảng -->
+<!--(Bản chất việc xoá ở đây tức là dịch phần tử ở bên phải V sang vị trí của V, và gán 0 cho phần tử cuối cùng của mảng)-->
+<div class="main">
+    <input type="text" id="inputToArray" placeholder="Nhap vao mang 10 phan tu">
+    <button type="button" onclick="addToArrays()">ADD</button>
+    <div id="displayArray"></div>
+    <input type="text" id="inputV">
+    <input type="button" value="Kiem tra V thuộc array ko và xoá V khỏi mảng" onclick="kiemTraVaXoa()">
+    <div id="afterDeleteElement"></div>
+
+</div>
+</body>
+<script>
+    let array = new Array();
+    let x = 0;
+
+    function addToArrays() {
+       array[x] = document.getElementById('inputToArray').value;
+        x++;
+       document.getElementById('inputToArray').value = "";
+       document.getElementById('displayArray').innerHTML = array;
+    }
+
+    function kiemTraVaXoa() {
+        let isV = document.getElementById('inputV').value;
+        let count = 0;
+        for (let i = 0; i < array.length ; i++){
+            if (isV == array[i]){
+                count++;
+            }
+        }
+
+        if (count == 0){
+            alert(isV + " không thuộc mảng");
+        }else{
+            alert(isV + " thuộc mảng");
+            let index = array.indexOf(isV);
+            if (index != -1) {
+                array.splice(index,1);
+
+                document.getElementById('afterDeleteElement').innerHTML = "Mảng sau khi xoá là: " + array;
+            }
+        }
+    }
+
+</script>
+</html>
