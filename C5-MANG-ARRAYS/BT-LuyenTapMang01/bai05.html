@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai5</title>
+</head>
+<body>
+<div class="main">
+    Nhập vào lần lượt các số trong mảng:<input type="text" id="inputArray">
+    <input type="button" value="Thêm vào mảng" onclick="themVaoMang()">
+    <input type="button" value="Đếm số nguyên âm" onclick="kiemTra()">
+    <div id="displayArray"></div>
+    <div id="about"></div>
+</div>
+</body>
+<script>
+    let array = new Array();
+    let x = 0;
+
+    function themVaoMang(){
+        array[x] = document.getElementById('inputArray').value;
+        x++;
+        document.getElementById('inputArray').value = "";
+        document.getElementById('displayArray').innerHTML = array;
+    }
+
+    function kiemTra() {
+        let count = 0;
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] < 0)
+                count++;
+        }
+        document.getElementById("about").innerHTML = "có " + count + " số nguyên âm";
+    }
+</script>
+</html>

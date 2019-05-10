@@ -7,5 +7,35 @@
 <body>
 <!--Bài 6: Viết chương trình nhập vào một mảng ký tự, tìm tất cả các ký tự trong mảng là (-) và thay thế các ký tự này-->
 <!--bởi ký tự ( _ )-->
+<input type="text" id="inputToArray" placeholder="Nhap vao mang ky tu co gach ngang">
+<button type="button" onclick="addToArray()">Add Array </button>
+<div id="displayArray"></div>
+<input type="button" value="Kiem tra va thay the" onclick="timKiemVaThayThe()">
+<div id="result"></div>
 </body>
+<script>
+    let array = new Array();
+    let x = 0;
+    function addToArray() {
+       array[x] = document.getElementById('inputToArray').value;
+       x++;
+       document.getElementById('inputToArray').value = "";
+       document.getElementById('displayArray').innerHTML = array;
+    }
+
+    function timKiemVaThayThe() {
+        // let index = 0;
+        // let kytu = "-";
+        // kytu = kytu.toString();
+
+        for (let i = 0; i < array.length; i++){
+            if (array[i] == "-" ){
+                // array = array.toString();
+                array.replace(/array[i]/g,"_");
+                // array[i] = "_";
+            }
+        document.getElementById("result").innerHTML = array;
+        }
+    }
+</script>
 </html>

@@ -21,14 +21,12 @@
 <script>
     let array = new Array();
     let x = 0;
-
     function addToArrays() {
-       array[x] = document.getElementById('inputToArray').value;
+        array[x] = document.getElementById('inputToArray').value;
         x++;
-       document.getElementById('inputToArray').value = "";
-       document.getElementById('displayArray').innerHTML = array;
+        document.getElementById('inputToArray').value = "";
+        document.getElementById('displayArray').innerHTML = array;
     }
-
     function kiemTraVaXoa() {
         let isV = document.getElementById('inputV').value;
         let count = 0;
@@ -37,7 +35,6 @@
                 count++;
             }
         }
-
         if (count == 0){
             alert(isV + " không thuộc mảng");
         }else{
@@ -45,11 +42,9 @@
             let index = array.indexOf(isV);
             if (index != -1) {
                 array.splice(index,1);
-
                 document.getElementById('afterDeleteElement').innerHTML = "Mảng sau khi xoá là: " + array;
             }
         }
     }
-
 </script>
 </html>
