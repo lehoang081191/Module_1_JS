@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai05</title>
+</head>
+<body>
+<!--Bài 5: Viết một chương trình nhập vào 2 chuỗi, sau đó kiểm tra xem hai chuỗi có giống nhau hay không-->
+<div class="main">
+    <input type="text" id="inputToArrayA" placeholder="Nhap vao mang a">
+    <button type="button" onclick="addToArraysA()">Add Array A</button>
+    <div id="displayArrayA"></div>
+    <br>
+    <input type="text" id="inputToArrayB" placeholder="Nhap vao mang b">
+    <button type="button" onclick="addToArraysB()">Add Array B</button>
+    <div id="displayArrayB"></div>
+    <br>
+    <input type="button" value="Kiểm Tra Trùng nhau không" onclick="kiemTra()">
+    <div id="result"></div>
+
+</div>
+</body>
+<script>
+    let arrayA = new Array();
+    let arrayB = new Array();
+
+    let x = 0;
+    let y = 0;
+
+    function addToArraysA() {
+        arrayA[x] = document.getElementById('inputToArrayA').value;
+        x++;
+        document.getElementById('inputToArrayA').value = "";
+        document.getElementById('displayArrayA').innerHTML = arrayA;
+    }
+    function addToArraysB() {
+        arrayB[y] = document.getElementById('inputToArrayB').value;
+        y++;
+        document.getElementById('inputToArrayB').value = "";
+        document.getElementById('displayArrayB').innerHTML = arrayB;
+    }
+
+    function kiemTra() {
+        let count = 0;
+
+        if (arrayA.length == arrayB.length){
+
+            for (let z = 0; z < arrayA.length; z++){
+                if (arrayA[z] == arrayB[z]){
+                    document.getElementById('result').innerHTML = "2 mang nay trung nhau";
+                }else{
+                    document.getElementById('result').innerHTML = "2 mang nay ko trung nhau";
+                }
+            }
+
+        }else{
+            document.getElementById('result').innerHTML = "2 mang nay ko trung nhau";
+        }
+    }
+
+</script>
+</html>
