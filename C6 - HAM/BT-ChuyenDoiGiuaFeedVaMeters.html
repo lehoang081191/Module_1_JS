@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi giữa Feed và Meters</title>
+    <style>
+        .main {
+            padding-left: 30px;
+            font-family: "Segoe UI";
+        }
+        h2{
+            color: #e91e63;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <h2>Chuyển đổi giữa feet và meters</h2>
+    <label>Feed: </label>
+    <input type="number" id="feed" oninput="feetToMeters()" onchange="feetToMeters()">
+    <label>Meters: </label>
+    <input type="number" id="meters" oninput="metersToFeed()" onchange="metersToFeed()">
+</div>
+</body>
+<script>
+
+  function feetToMeters(number) {
+    let isFeed = document.getElementById("feed").value;
+    let isMeters = document.getElementById("meters").value;
+    document.getElementById("meters").value = isFeed * 0.305;
+  }
+
+  function metersToFeed() {
+      let isFeed = document.getElementById("feed").value;
+      let isMeters = document.getElementById("meters").value;
+      document.getElementById("feed").value = isMeters * 3.279;
+  }
+</script>
+</html>
