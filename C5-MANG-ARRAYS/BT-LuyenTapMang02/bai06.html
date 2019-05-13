@@ -14,28 +14,40 @@
 <div id="result"></div>
 </body>
 <script>
-    let array = new Array();
-    let x = 0;
-    function addToArray() {
-       array[x] = document.getElementById('inputToArray').value;
-       x++;
-       document.getElementById('inputToArray').value = "";
-       document.getElementById('displayArray').innerHTML = array;
-    }
+    // let array = new Array();
+    // let x = 0;
+    // function addToArray() {
+    //    array[x] = document.getElementById('inputToArray').value;
+    //    x++;
+    //    document.getElementById('inputToArray').value = "";
+    //    document.getElementById('displayArray').innerHTML = array;
+    // }
 
-    function timKiemVaThayThe() {
-        // let index = 0;
+    let array = [df,ddf-d,"-","0-9"];
+    // function timKiemVaThayThe() {
+        let count = 0;
+        let index = 0;
         // let kytu = "-";
         // kytu = kytu.toString();
 
         for (let i = 0; i < array.length; i++){
             if (array[i] == "-" ){
+                count++;
+                index = array[i];
                 // array = array.toString();
-                array.replace(/array[i]/g,"_");
+                // array.replace(/array[i]/g,"_");
                 // array[i] = "_";
             }
-        document.getElementById("result").innerHTML = array;
         }
-    }
+
+        if (count == 0){
+            array.replace(array[index],"_");
+            // document.getElementById('result').innerHTML = array;
+            document.write(array);
+        }else{
+            document.getElementById('result').innerHTML = "Ko tìm thấy '-'";
+            document.write("ko tim thay");
+        }
+    // }
 </script>
 </html>
