@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai02</title>
+</head>
+<body>
+<!--Bài 2: Viết hàm tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được-->
+</body>
+<script>
+
+    function chuViHinhTron(banKinh) {
+        return (banKinh * 2) * PI;
+    }
+    
+    function dienTichHinhTron(banKinh) {
+        return banKinh * banKinh * PI;
+    }
+
+    const PI = 3.14;
+    let inputBanKinh = parseFloat(prompt("Nhập bán kính của hình tròn"));
+    alert("Chu vi hình tròn là: "+chuViHinhTron(inputBanKinh));
+    alert("Diện tích hình tròn là: "+dienTichHinhTron(inputBanKinh));
+</script>
+</html>

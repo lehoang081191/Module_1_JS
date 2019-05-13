@@ -1,24 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
-
-</body>
 <script>
-    function myFunction() {
-      let firstArg = arguments[0];
-      let secondArg = arguments[1];
-
-      alert("FirsrArg is: "+ firstArg);
-      alert("secondArg is: " + secondArg);
+    function doiCho(a,b){
+        let result=[a,b];
+        result.reverse()
+        return result;
     }
-
-    myFunction("Hello","World");
+    let a = prompt()
+    let b = prompt()
+    let c = doiCho(a,b);
+    alert(c);
 </script>
-</html>
+
+</body>a
