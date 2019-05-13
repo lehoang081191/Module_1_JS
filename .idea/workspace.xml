@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan" />
+    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -43,11 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C6 - HAM/TH-ChuyenDoiNhietDo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+            <state relative-caret-position="203">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C6 - HAM/TH-TimGiaTriNhoNhatCuaMang.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -74,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/TH-DaoNguocCacPhanTuTrongMang.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TimGiaTriTrongMang.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-SuDungCacHamCoSanCuaMang/bai01.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/DemoFunction/index.html" />
@@ -125,6 +135,7 @@
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/TH-TaoVaGoiHam.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/TH-ChuyenDoiNhietDo.html" />
+        <option value="$PROJECT_DIR$/C6 - HAM/TH-TimGiaTriNhoNhatCuaMang.html" />
       </list>
     </option>
   </component>
@@ -317,12 +328,12 @@
       <workItem from="1557297253143" duration="12326000" />
       <workItem from="1557364313230" duration="27233000" />
       <workItem from="1557450667605" duration="19555000" />
-      <workItem from="1557708803659" duration="6147000" />
+      <workItem from="1557708803659" duration="7366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196568000" />
+    <option name="totallyTimeSpent" value="197787000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -376,11 +387,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add kiem tra nam nhuan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/KiemTraSoNguyenTo/cach1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/KiemTraSoNguyenTo/cach3.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -666,8 +672,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C6 - HAM/TH-ChuyenDoiNhietDo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state relative-caret-position="203">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/TH-TimGiaTriNhoNhatCuaMang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
         </state>
       </provider>
     </entry>
