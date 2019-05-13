@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành - Chuyển đổi nhiệt độ</title>
+    <style>
+        .main{
+            padding-left: 40px;
+            font-family: "Segoe UI";
+        }
+        h2{
+            color:#e91e63;
+            font-size: 33px;
+        }
+        h5{
+            color: #3f51b5;
+            font-size: 22px;
+        }
+        p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <h2>Temperature Converter</h2>
+    <h5>Nhập 1 giá trị độ F để chuyển sang độ C</h5>
+    <p><label>Độ F:</label>
+    <input type="number" id="inputF" oninput="chuyenDoiNhietDo(this.value)" onchange="chuyenDoiNhietDo(this.value)">
+    </p>
+    <p>Độ C: <span id="ouputC"></span></p>
+</div>
+</body>
+<script>
+function chuyenDoiNhietDo(number) {
+    number = parseFloat(number);
+    document.getElementById("ouputC").innerHTML = (number - 32) / 1.8;
+}
+</script>
+</html>
