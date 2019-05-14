@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" beforeDir="false" afterPath="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai09.html" beforeDir="false" afterPath="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai09.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C6 - HAM/BT-UngDungQuanLySanPham.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,30 +17,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/BT-TicTacToe.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C6 - HAM/BT-UngDungQuanLySanPham.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
+            <state relative-caret-position="526">
               <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -68,9 +46,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai09.html">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C6 - HAM/BT-KiemTraTuDoiXung.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -95,9 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapWhile/bai02.html" />
-        <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapDoWhile/dowhilesample.html" />
-        <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/KiemTraSoNguyenTo/LuyenTap.html" />
         <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/TH-SuDungVongLapWhile/bai01.html" />
         <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/HienThiCacSoNguyenToDauTien.html" />
         <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/LuyenTapVongLap01/bai03.html" />
@@ -144,8 +123,11 @@
         <option value="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai07.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai08.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai09.html" />
-        <option value="$PROJECT_DIR$/C6 - HAM/BT-UngDungQuanLySanPham.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" />
+        <option value="$PROJECT_DIR$/C6 - HAM/BT-UngDungQuanLySanPham.html" />
+        <option value="$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/style.css" />
+        <option value="$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/product.html" />
+        <option value="$PROJECT_DIR$/C6 - HAM/BT-KiemTraTuDoiXung.html" />
       </list>
     </option>
   </component>
@@ -175,37 +157,7 @@
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C3-CAUTRUCDIEUKIEN" type="462c0819:PsiDirectoryNode" />
-              <item name="LuyenTapCauTrucDieuKien01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C3-CAUTRUCDIEUKIEN" type="462c0819:PsiDirectoryNode" />
-              <item name="LuyenTapCauTrucDieuKien02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
               <item name="C4-CAU-TRUC-LAP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C4-CAU-TRUC-LAP" type="462c0819:PsiDirectoryNode" />
-              <item name="KiemTraSoNguyenTo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C4-CAU-TRUC-LAP" type="462c0819:PsiDirectoryNode" />
-              <item name="LuyenTapVongLap01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C4-CAU-TRUC-LAP" type="462c0819:PsiDirectoryNode" />
-              <item name="LuyenTapVongLap02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
@@ -234,30 +186,6 @@
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
               <item name="C5-MANG-ARRAYS" type="462c0819:PsiDirectoryNode" />
-              <item name="BT-LuyenTapMang01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C5-MANG-ARRAYS" type="462c0819:PsiDirectoryNode" />
-              <item name="BT-LuyenTapMang02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C5-MANG-ARRAYS" type="462c0819:PsiDirectoryNode" />
-              <item name="BT-SuDungCacHamCoSanCuaMang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C5-MANG-ARRAYS" type="462c0819:PsiDirectoryNode" />
-              <item name="TH-TaoVaThaoTacVoiMang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C5-MANG-ARRAYS" type="462c0819:PsiDirectoryNode" />
               <item name="W3R" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,18 +197,17 @@
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
               <item name="C6 - HAM" type="462c0819:PsiDirectoryNode" />
-              <item name="LuyenTapHam-01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C6 - HAM" type="462c0819:PsiDirectoryNode" />
-              <item name="LuyenTapHam-02" type="462c0819:PsiDirectoryNode" />
+              <item name="UngDungQuanLySanPham" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
               <item name="LuyenTap-If-Else-If" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+              <item name="QuanLySanPham" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -357,12 +284,14 @@
       <workItem from="1557364313230" duration="27233000" />
       <workItem from="1557450667605" duration="19555000" />
       <workItem from="1557708803659" duration="22724000" />
-      <workItem from="1557748263564" duration="1424000" />
+      <workItem from="1557748263564" duration="1961000" />
+      <workItem from="1557756188977" duration="2776000" />
+      <workItem from="1557804066221" duration="1921000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214569000" />
+    <option name="totallyTimeSpent" value="219803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -416,31 +345,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add kiem tra nam nhuan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/KiemTraSoNguyenTo/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TaoVaThaoTacVoiMang/TONG HOP.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/SapXepThuTuTangDan-W3R.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/LuyenTapMang02.html" />
-    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-DaoNguocCacPhanTuTrongMang.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/BT-LuyenTapMang02/bai03.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -714,9 +618,10 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/BT-UngDungQuanLySanPham.html" />
     <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/BT-TicTacToe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
+        <state relative-caret-position="526">
           <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -724,19 +629,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/BT-UngDungQuanLySanPham.html">
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuanLySanPham/js/script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QuanLySanPham/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai09.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
+        <state relative-caret-position="526">
           <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -759,6 +681,13 @@
             <element signature="n#style#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/BT-KiemTraTuDoiXung.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>

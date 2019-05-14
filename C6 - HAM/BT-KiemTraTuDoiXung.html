@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra từ đối xứng</title>
+</head>
+<body>
+
+</body>
+<script>
+
+    function isPalindrome(s){
+// Thay đổi chuỗi thành chữ thường và xóa tất cả các ký tự không chữ và số
+        var str = s.toLowerCase().replace(/[^a-zA-Z0-9]+/g,'');
+        var count = 0;
+// Kiểm tra xem chuỗi có trống hay không
+        if(str === "") {
+            alert("Chuỗi rỗng, vui lòng nhập lại!");
+            return false;
+        }
+// Kiểm tra xem độ dài của chuỗi là chẵn hay lẻ
+        if ((str.length) % 2 === 0) {
+            count = (str.length) / 2;
+        } else {
+// Nếu độ dài của chuỗi là 1 thì nó là chuỗi palindrome
+            if (str.length === 1) {
+                alert("Chuỗi bạn nhập là palindrome");
+                return true;
+            } else {
+// Nếu độ dài của chuỗi là lẻ, bỏ qua ký tự giữa
+                count = (str.length - 1) / 2;
+            }
+        }
+// Lặp lại để kiểm tra ký tự đầu tiên đến ký tự cuối cùng và sau đó di chuyển tiếp theo
+        for (let x = 0; x < count; x++) {
+// So sánh các ký tự và drop nếu chúng không khớp
+            if (str[x] != str.slice(-1-x)[0]) {
+                alert("Chuỗi bạn nhập không phải là palindrome.");
+                return false;
+            }
+        }
+        alert("Chuỗi bạn nhập là palindrome");
+        return true;
+    }
+
+        let chuoi = prompt("Nhập vào 1 chuỗi để kiểm tra có phải Palindrome");
+        isPalindrome(chuoi);
+
+
+</script>
+</html>
