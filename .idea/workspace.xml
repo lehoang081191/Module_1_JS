@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" beforeDir="false" afterPath="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,37 +15,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="493">
+              <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham.html">
+        <entry file="file://$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopDate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="549">
+              <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/BT-Faking-Textarea-On-Typing.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai02.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="374">
+              <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopHinhTron.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -72,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-TuDien-.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-TuDien.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-TicTacToe.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-LuyenTapMang01/bai06.html" />
@@ -120,9 +120,10 @@
         <option value="$PROJECT_DIR$/C7-OOP-1/HieuUngGradienTron.html" />
         <option value="$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopDate.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/product.html" />
-        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-Faking-Textarea-On-Typing.html" />
+        <option value="$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopHinhTron.html" />
+        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" />
       </list>
     </option>
   </component>
@@ -143,16 +144,6 @@
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C5-MANG-ARRAYS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C6 - HAM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
@@ -240,12 +231,12 @@
       <workItem from="1557804066221" duration="2615000" />
       <workItem from="1557806706343" duration="2542000" />
       <workItem from="1557816607848" duration="12399000" />
-      <workItem from="1557835170330" duration="1436000" />
+      <workItem from="1557835170330" duration="4821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236874000" />
+    <option name="totallyTimeSpent" value="240259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -299,13 +290,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add kiem tra nam nhuan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/BT-LuyenTapMang01/bai01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/BT-LuyenTapMang01/bai04.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -406,34 +390,6 @@
         <state relative-caret-position="-545" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai04.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C6 - HAM/BT-HamKiemTraSoNguyenTo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
@@ -444,45 +400,10 @@
     <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai04-cach2.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai06.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai05.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai04.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai07.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -531,13 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai05.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C7-OOP-1/BD-VeTrenCanvas.html" />
     <entry file="file://$PROJECT_DIR$/C7-OOP-1/VeDuongThang.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -580,31 +494,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopDate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/product.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
+    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/BT-Faking-Textarea-On-Typing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="393">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -619,10 +550,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/BT-Faking-Textarea-On-Typing.html">
+    <entry file="file://$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopDate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="549">
+          <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopHinhTron.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
         </state>
       </provider>
     </entry>
