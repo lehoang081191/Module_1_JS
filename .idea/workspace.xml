@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" beforeDir="false" afterPath="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopDate.html" beforeDir="false" afterPath="$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopDate.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,20 +19,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="16">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+              <folding>
+                <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopDate.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="475">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/LuyenTapVongLap02/bai04.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/tuDien2.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-TuDien-.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-TuDien.html" />
@@ -96,7 +106,6 @@
         <option value="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai09.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/BT-UngDungQuanLySanPham.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/style.css" />
-        <option value="$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/product.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/BT-KiemTraTuDoiXung.html" />
         <option value="$PROJECT_DIR$/C7-OOP-1/BĐ-CanBanVeDoiTuongTrongJS.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai05.html" />
@@ -105,8 +114,10 @@
         <option value="$PROJECT_DIR$/C7-OOP-1/VeChu.html" />
         <option value="$PROJECT_DIR$/C7-OOP-1/HieuUngGradient.html" />
         <option value="$PROJECT_DIR$/C7-OOP-1/HieuUngGradienTron.html" />
-        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" />
         <option value="$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopDate.html" />
+        <option value="$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/product.html" />
+        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" />
+        <option value="$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham.html" />
       </list>
     </option>
   </component>
@@ -132,12 +143,6 @@
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
               <item name="C6 - HAM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C6 - HAM" type="462c0819:PsiDirectoryNode" />
-              <item name="UngDungQuanLySanPham" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
@@ -225,14 +230,16 @@
       <workItem from="1557804066221" duration="2615000" />
       <workItem from="1557806706343" duration="2542000" />
       <workItem from="1557816607848" duration="12399000" />
+      <workItem from="1557835170330" duration="830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235438000" />
+    <option name="totallyTimeSpent" value="236268000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23511904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -282,23 +289,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="add kiem tra nam nhuan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/SinhBangCuuChuong/BangCuuChuong.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/BT-LuyenTapMang01/bai09.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/BT-LuyenTapMang01/bai09.html" />
     <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/BT-LuyenTapMang01/bai01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -504,13 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/QuanLySanPham/js/script.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -545,16 +529,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C7-OOP-1/BD-VeTrenCanvas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/C7-OOP-1/BD-VeTrenCanvas.html" />
     <entry file="file://$PROJECT_DIR$/C7-OOP-1/VeDuongThang.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -603,17 +578,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
+    <entry file="file://$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopDate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="663">
+          <caret line="39" column="6" lean-forward="true" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopDate.html">
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/product.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="475">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
