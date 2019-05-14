@@ -8,24 +8,28 @@
 
 </body>
 <script>
-    // let person = {
-    //     name: ["Bob", "Smith"],
-    //     age: 28,
-    //     gender: "Male",
-    //     interests: ["music", "skiing"],
-    //     bio: function () {
-    //         alert(this.name[0] + " " + this.name[1] + " is " + this.age + " year old. He like " + this.interests[0] + " and " + this.interests[1]);
-    //     },
-    //     greeting: function () {
-    //         alert("Hi! I'm " + this.name[0]);
-    //     }
-    // }
-    //
-    // person.bio();
-    person.age = 45;
-    person['name']['last'] = 'Cratchit';
+    //Sử dụng object literals
+   // let apple = {
+   //     type: "macitosh",
+   //     color: "red",
+   //     getInfo: function () {
+   //         return this.type + " " + this.color + " apple";
+   //     }
+   //
+   // }
+   // alert(apple.type);
+   // alert(apple.getInfo());
 
-    person.age
-    person['name']['last']
+   //Sử dụng Singleton
+    let apple = new function () {
+        this.type = "macitosh";
+        this.color = "blue";
+        this.getInfo = function () {
+            return this.type + " " + this.color + " apple";
+        };
+    }
+    apple.color = "reddish";
+    alert(apple.getInfo());
+    alert(apple.color);
 </script>
 </html>

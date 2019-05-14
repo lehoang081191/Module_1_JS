@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vẽ hình tròn</title>
+</head>
+<body>
+<canvas id="myCanvas" width="200" height="100" style="border: 1px solid #cccccc;"></canvas>
+</body>
+<script>
+    let c = document.getElementById("myCanvas");
+    let ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95,50,40,0,2*Math.PI);
+    ctx.stroke();
+</script>
+</html>

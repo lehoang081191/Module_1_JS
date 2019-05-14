@@ -11,11 +11,6 @@
     let arr1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe","Regulus"];
     let arr2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major","Leo"];
 
-    function nhapSao() {
-        let tenSao = prompt("Nhập tên 1 sao để tìm chòm sao tương ứng");
-        timChomSao(tenSao);
-    }
-
     function timChomSao(text) {
 
         for (let i = 0; i < arr1.length; i++){
@@ -26,6 +21,11 @@
                 alert("Ko tìm thấy");
             }
         } 
+    }
+
+    function nhapSao() {
+        let tenSao = prompt("Nhập tên 1 sao để tìm chòm sao tương ứng");
+        timChomSao(tenSao);
     }
 </script>
 </html>
