@@ -7,4 +7,20 @@
 <body>
 
 </body>
+<script>
+    function Person(name) {
+        this.name = name;
+        this.greeting = function () {
+            alert("Hi! I'm " +this.name)
+        }
+    }
+
+    let anhTrai = new Person("Long");
+    anhTrai.name;
+    anhTrai.greeting();
+
+    let chiGai = new Person("Thanh");
+    chiGai.greeting();
+    chiGai.greeting();
+</script>
 </html>
