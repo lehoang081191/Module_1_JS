@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <title>Thực hành - Funny circles</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Funny Circles</title>
 </head>
-<body>
-<canvas id="myCanvas" width="1368px" height="768px" style="border: 1px solid #d3d3d3;"></canvas>
+<body style="margin:0;">
+
+<canvas id="myCanvas" width="1368px" height="768px" style="border:1px solid #d3d3d3;"></canvas>
+
 </body>
 <script>
-    function Circle(x, y, radius){
-        this.x = x;
-        this.y = y;
-        this.radius = radius;
-    }
+    var c = document.getElementById('myCanvas').getContext('2d');
 
+    var innerWidth = window.innerWidth, //window.innerWidth và window.innerHeight là 2 thuộc tính trả về kích thước của cửa sổ trình duyệt
+        innerHeight = window.innerHeight,
+        circleArray = [],
+        NumOfCircles = 100;
+
+    //getRandomHex() sẽ sinh ra một số ngẫu nhiên nằm trong khoảng 0-255.
     function getRandomHex(){
         return Math.floor(Math.random()*255);
     }
 
+    //Hàm getRandomColor() sinh ra một màu ngẫu nhiên.
     function getRandomColor(){
         var red = getRandomHex();
         var green = getRandomHex();
@@ -25,26 +30,64 @@
         return "rgb(" + red + "," + blue + "," + green +")";
     }
 
-    function createCircle(){
-        var ctx = document.getElementById("myCanvas").getContext("2d");
-        var radius = Math.floor(Math.random() * 80);
-        var color = getRandomColor();
-        var x = Math.random() * window.innerWidth;
-        var y = Math.random() * window.innerHeight;
-        var circle= new Circle(x, y, radius);
-        ctx.beginPath();
-        ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
-        ctx.fillStyle = color;
-        ctx.fill();
+    // Hàm tạo hình tròn
+    function Circle(x,y,dx,dy,radius){
+        this.x = x;
+        this.y = y;
+        this.dx = dx;
+        this.dy = dy;
+        this.color = getRandomColor();
+        this.radius = radius;
+
+        // Tạo hàm chuyển động hình tròn
+        this.update = function(){
+            if(this.x + this.radius > innerWidth || this.x - this.radius < 0){
+                this.dx = -this.dx;
+            }
+
+            if(this.y + this.radius > innerHeight || this.y - this.radius < 0){
+                this.dy = -this.dy;
+            }
+
+            this.x += this.dx;
+            this.y += this.dy;
+
+            this.draw();
+        };
+
+        // Tạo hàm để vẽ hình tròn
+        this.draw = function(){
+            c.beginPath();
+            c.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
+            c.fillStyle = this.color;
+            c.fill();
+            c.closePath();
+        }
+
     }
 
-    function createMultipleCircle(){
-        for(var i = 0; i < 30; i++){
-            createCircle();
+    //Dùng for để tạo nhiều vòng tròn
+    // Dùng hàm Circle ở trên để tạo vòng tròn mới và thêm vào mảng
+    for (var i=0; i < NumOfCircles; i++){
+        var radius = Math.floor((Math.random() * 50) +1); // Kích thước bán kính hình tròn ngẫu nhiên
+        var x = Math.random() * (innerWidth - radius*2) + radius; // Vị trí X ngẫu nhiên
+        var y = Math.random() * (innerHeight - radius*2) + radius; // Vị trí Y ngẫu nhiên
+        var dx = (Math.random() - 0.5) * 2; // Vận tốc X ngẫu nhiên
+        var dy = (Math.random() - 0.5) * 2; // Vận tốc Y ngẫu nhiên
+        circleArray.push(new Circle(x,y,dx,dy,radius)); // Tạo hình tròn mới
+    }
+
+    // Hàm làm cho các phần tử chuyển động
+    function animate(){
+        requestAnimationFrame(animate);
+        c.clearRect(0,0,innerWidth,innerHeight);
+
+        for(var i=0; i < circleArray.length; i++){
+            circleArray[i].update();
         }
     }
 
-    createMultipleCircle();
+    animate();
 
 </script>
 </html>

@@ -1,44 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
-<canvas id="myCanvas" width="500" height="300"></canvas></br>
-<script>
-    let Rectangle = function (length,width){
-        this.length=length;
-        this.width=width;
-        this.getLegth = function(){
-            return length;
-        }
-        this.getWidth = function(){
-            return width;
-        }
-        this.getArea = function(){
-            return length * width;
-        }
-        this.getPerimeter = function(){
-            return ((length + width)*2);
-        }
-    };
-    let Length = parseInt(prompt("nhập chiều dài: "));
-    let Width = parseInt(prompt("nhập chiều rộng: "));
-    let rectangle = new Rectangle(Length,Width);
-    let length = rectangle.getLegth();
-    let width = rectangle.getWidth();
-    let area = rectangle.getArea();
-    let perimeter = rectangle.getPerimeter();
-    document.write("diện tích là: " + area +"<br>");
-    document.write("chu vi là: " + perimeter + "<br>");
-    let c = document.getElementById("myCanvas");
-    let ctx = c.getContext("2d");
-    ctx.fillStyle = "#87CEFA";
-    ctx.fillRect(0,0,length,width);
 
-</script>
 </body>
+<SCRIPT>
+    function Circle(x, y, radius){
+        this.x = x;
+        this.y = y;
+        this.radius = radius;
+    }
+
+    function getRandomHex(){
+        return Math.floor(Math.random()*255);
+    }
+
+    function getRandomColor(){
+        var red = getRandomHex();
+        var green = getRandomHex();
+        var blue = getRandomHex();
+        return "rgb(" + red + "," + blue + "," + green +")";
+    }
+
+    function createCircle(){  // Hàm tạo hình tròn
+        var ctx = document.getElementById("myCanvas").getContext("2d");
+        var radius = Math.floor(Math.random() * 80);
+        var color = getRandomColor();
+        var x = Math.random() * window.innerWidth;
+        var y = Math.random() * window.innerHeight;
+        var circle= new Circle(x, y, radius);
+        ctx.beginPath();
+        ctx.arc(circle.x, circle.y, circle.radius, 0, 2 * Math.PI);
+        ctx.fillStyle = color;
+        ctx.fill();
+    }
+
+    function createMultipleCircle(){
+        for(var i = 0; i < 30; i++){
+            createCircle();
+        }
+    }
+
+    createMultipleCircle();
+
+</SCRIPT>
 </html>
