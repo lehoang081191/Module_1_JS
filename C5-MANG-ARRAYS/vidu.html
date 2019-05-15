@@ -1,32 +1,44 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
-
-</body>
+<canvas id="myCanvas" width="500" height="300"></canvas></br>
 <script>
-   let Circle = function (radius) {
-       this.radius = radius;
+    let Rectangle = function (length,width){
+        this.length=length;
+        this.width=width;
+        this.getLegth = function(){
+            return length;
+        }
+        this.getWidth = function(){
+            return width;
+        }
+        this.getArea = function(){
+            return length * width;
+        }
+        this.getPerimeter = function(){
+            return ((length + width)*2);
+        }
+    };
+    let Length = parseInt(prompt("nhập chiều dài: "));
+    let Width = parseInt(prompt("nhập chiều rộng: "));
+    let rectangle = new Rectangle(Length,Width);
+    let length = rectangle.getLegth();
+    let width = rectangle.getWidth();
+    let area = rectangle.getArea();
+    let perimeter = rectangle.getPerimeter();
+    document.write("diện tích là: " + area +"<br>");
+    document.write("chu vi là: " + perimeter + "<br>");
+    let c = document.getElementById("myCanvas");
+    let ctx = c.getContext("2d");
+    ctx.fillStyle = "#87CEFA";
+    ctx.fillRect(0,0,length,width);
 
-       this.getRadius = function () {
-           return radius;
-       }
-       this.getArea = function () {
-           return Math.PI * radius * radius;
-       }
-   };
-
-   let hinhTron = new Circle(4);
-
-   let banKinh = hinhTron.getRadius();
-   let chuVi = hinhTron.getArea();
-
-   alert('Bán kính là: ' + banKinh + " ; Chu Vi hình tròn là: "+ chuVi);
 </script>
+</body>
 </html>
