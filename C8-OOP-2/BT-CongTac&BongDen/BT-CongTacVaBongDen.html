@@ -5,9 +5,52 @@
     <title>Phát triển chương trình thể hiện sự tương tác giữa hai đối tượng: công tắc và bóng đèn</title>
 </head>
 <body>
+<div id="RemoteLamp">
+    <img src="OFF.gif" alt="">
+</div>
+<input type="button" value="KẾT NỐI" onclick="ketNoiThietBi()">
+<input type="button" value="BẬT" ONCLICK="batDen()">
+<input type="button" value="TẮT" ONCLICK="tatDen()">
 
 </body>
 <script>
+let SwitchButton = function () {
+    this.connectToLamp = function () {
+        alert("Đã kết nối đến thiết bị.")
 
+    };
+    this.switchOn = function () {
+        this.status = true;
+    };
+    this.switchOff = function () {
+        this.status = false;
+    }
+};
+
+let ElectricLamp = function () {
+    this.turnOn = function () {
+        document.getElementById("RemoteLamp").innerHTML =  "<img src=\"ON.gif\" alt=\"\">";
+    };
+    this.turnOff = function () {
+        document.getElementById("RemoteLamp").innerHTML =  "<img src=\"OFF.gif\" alt=\"\">";
+    }
+};
+
+let button = new SwitchButton();
+let den = new ElectricLamp();
+
+function ketNoiThietBi() {
+    button.connectToLamp();
+}
+
+ function batDen() {
+     button.switchOn();
+     den.turnOn();
+ }
+
+function tatDen() {
+    button.switchOff();
+    den.turnOff();
+}
 </script>
 </html>
