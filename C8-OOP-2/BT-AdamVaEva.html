@@ -5,25 +5,27 @@
     <title>Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva</title>
 </head>
 <body>
-
+<div id="apple"></div>
+<hr>
+<div id="adamInfo"></div>
+<div id="adamWeight"></div>
+<input type="button" value ="Ăn" onclick="adamEat()">
+<hr>
+<div id="evaInfo"></div>
+<div id="evaWeight"></div>
+<input type="button" value="Ăn" onclick="evaEat()">
 </body>
 <script>
 let Apple = function (weight) {
     this.weight = weight;
     this.decrease = function () {
-       if (this.weight > 0) {
-           this.weight --;
-       }
+        this.weight--;
     };
-    this.isEmpty = function () {
-        if (this.weight == 0){
-            alert("Hết táo");
-        } 
-    };
+
     this.getWeight = function () {
         return this.weight;
     }
-}
+};
 
 let Human = function (name,gender,weight) {
     this.name = name;
@@ -38,7 +40,7 @@ let Human = function (name,gender,weight) {
     this.setWeight = function () {
         this.weight = weight;
     };
-    this.getWeight = function () {
+    this.getHumanWeight = function () {
         return this.weight;
     };
     this.isMale = function () {
@@ -52,15 +54,48 @@ let Human = function (name,gender,weight) {
         return this.gender;
     };
     this.checkApple = function () {
-        this.
+        return Apple.weight;
     };
     this.eat = function () {
-
+        return this.weight++;
     };
     this.say = function () {
-        alert("táo ngon");
+        alert("hết táo rồi");
+    }
+};
+
+let apple = new Apple(10);
+document.getElementById("apple").innerHTML = "Trọng lượng táo: " + apple.getWeight();
+
+let Adam = new Human("Adam",true, 60);
+document.getElementById("adamInfo").innerHTML =("Tên: " + Adam.getName() + "<br>" + "Giới tính: " + Adam.isMale() + "<br>");
+document.getElementById("adamWeight").innerHTML = "Trọng lượng: " + Adam.getHumanWeight();
+
+let Eva = new Human("Eva",false,45);
+document.getElementById("evaInfo").innerHTML =("Tên: " + Eva.getName() + "<br>" + "Giới tính: " + Eva.isMale() + "<br>");
+document.getElementById("evaWeight").innerHTML = "Trọng lượng: " + Eva.getHumanWeight();
+
+function adamEat() {
+    if (apple.getWeight()>0){
+        Adam.eat();
+        apple.decrease();
+        document.getElementById("apple").innerHTML = "Trọng lượng táo: " + apple.getWeight();
+        document.getElementById("adamWeight").innerHTML = "Trọng lượng: " + Adam.getHumanWeight();
+    }else{
+        alert("Hết táo rồi");
     }
 
+}
+
+function evaEat() {
+    if (apple.getWeight()>0){
+        Eva.eat();
+        apple.decrease();
+        document.getElementById("apple").innerHTML = "Trọng lượng táo: " + apple.getWeight();
+        document.getElementById("evaWeight").innerHTML = "Trọng lượng: " + Eva.getHumanWeight();
+    }else{
+        alert("Hết táo rồi");
+    }
 }
 </script>
 </html>
