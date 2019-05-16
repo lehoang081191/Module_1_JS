@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuanLySanPham/css/css.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuanLySanPham/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuanLySanPham/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C4-CAU-TRUC-LAP/Good-Fast-Cheap.html" beforeDir="false" afterPath="$PROJECT_DIR$/C4-CAU-TRUC-LAP/Good-Fast-Cheap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" beforeDir="false" afterPath="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C8-OOP-2/BT-AdamVaEva.html" beforeDir="false" afterPath="$PROJECT_DIR$/C8-OOP-2/BT-AdamVaEva.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,13 +19,17 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C8-OOP-2/BT-GameDonGian-DiChuyenDoiTuong/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="459">
               <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
@@ -35,11 +38,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C8-OOP-2/TH-MoPhongĐenPin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C8-OOP-2/BT-AdamVaEva.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="322">
+              <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C6 - HAM/BT-HamKiemTraSoNguyenTo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -66,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-LuyenTapMang02/bai05.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-SuDungCacHamCoSanCuaMang/bai02.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-LuyenTapMang01/bai07.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-LuyenTapMang01/bai03.html" />
@@ -113,9 +133,10 @@
         <option value="$PROJECT_DIR$/C8-OOP-2/ViDu-ThietKeTrongLapTrinhHuongDoiTuong.html" />
         <option value="$PROJECT_DIR$/C8-OOP-2/TH-MoPhongĐenPin.html" />
         <option value="$PROJECT_DIR$/C8-OOP-2/BT-GameDonGian-DiChuyenDoiTuong.html" />
-        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" />
         <option value="$PROJECT_DIR$/C8-OOP-2/BT-GameDonGian-DiChuyenDoiTuong/script.js" />
         <option value="$PROJECT_DIR$/C8-OOP-2/BT-GameDonGian-DiChuyenDoiTuong/index.html" />
+        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" />
+        <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/Good-Fast-Cheap.html" />
         <option value="$PROJECT_DIR$/C8-OOP-2/BT-AdamVaEva.html" />
       </list>
     </option>
@@ -136,6 +157,16 @@
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+              <item name="C4-CAU-TRUC-LAP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+              <item name="C6 - HAM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
@@ -171,13 +202,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C4-CAU-TRUC-LAP\TH-SuDungVongLapFor" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C7-OOP-1" />
       <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C4-CAU-TRUC-LAP\LuyenTapVongLap01" />
       <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C5-MANG-ARRAYS\TH-TaoVaThaoTacVoiMang" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C4-CAU-TRUC-LAP\TH-SuDungVongLapFor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -240,12 +271,12 @@
       <workItem from="1557901652256" duration="1631000" />
       <workItem from="1557903465920" duration="702000" />
       <workItem from="1557905191263" duration="8718000" />
-      <workItem from="1557967589368" duration="1257000" />
+      <workItem from="1557967589368" duration="8257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271817000" />
+    <option name="totallyTimeSpent" value="278817000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -308,9 +339,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add kiem tra nam nhuan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/KiemTraSoNguyenTo/LuyenTap.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/KiemTraSoNguyenTo/cach4-cua-Anh-Khanh.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -329,13 +357,6 @@
     <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/KiemTraSoNguyenTo/cach3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-545" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/BT-HamKiemTraSoNguyenTo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai04-cach2.html">
@@ -574,13 +595,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C8-OOP-2/BT-GameDonGian-DiChuyenDoiTuong.html" />
     <entry file="file://$PROJECT_DIR$/C8-OOP-2/BT-GameDonGian-DiChuyenDoiTuong/README.md" />
-    <entry file="file://$PROJECT_DIR$/C8-OOP-2/TH-MoPhongĐenPin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C7-OOP-1/TH-FunnyCircles.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -593,12 +607,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C8-OOP-2/BT-GameDonGian-DiChuyenDoiTuong/script.js" />
-    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/Good-Fast-Cheap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="247" column="7" lean-forward="true" selection-start-line="247" selection-start-column="7" selection-end-line="247" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C8-OOP-2/BT-GameDonGian-DiChuyenDoiTuong/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
+        <state relative-caret-position="459">
           <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
@@ -606,10 +624,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/BT-HamKiemTraSoNguyenTo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C8-OOP-2/TH-MoPhongĐenPin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/C8-OOP-2/BT-AdamVaEva.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="322">
+          <caret line="54" column="13" lean-forward="true" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
         </state>
       </provider>
     </entry>

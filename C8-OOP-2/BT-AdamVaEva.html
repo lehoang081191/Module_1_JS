@@ -8,6 +8,59 @@
 
 </body>
 <script>
+let Apple = function (weight) {
+    this.weight = weight;
+    this.decrease = function () {
+       if (this.weight > 0) {
+           this.weight --;
+       }
+    };
+    this.isEmpty = function () {
+        if (this.weight == 0){
+            alert("Hết táo");
+        } 
+    };
+    this.getWeight = function () {
+        return this.weight;
+    }
+}
 
+let Human = function (name,gender,weight) {
+    this.name = name;
+    this.gender = gender;
+    this.weight = weight;
+    this.setName = function (name) {
+        this.name = name;
+    };
+    this.getName = function () {
+        return this.name;
+    };
+    this.setWeight = function () {
+        this.weight = weight;
+    };
+    this.getWeight = function () {
+        return this.weight;
+    };
+    this.isMale = function () {
+        if (this.gender){
+            return "male";
+        }else{
+            return "female";
+        }
+    };
+    this.getGender = function () {
+        return this.gender;
+    };
+    this.checkApple = function () {
+        this.
+    };
+    this.eat = function () {
+
+    };
+    this.say = function () {
+        alert("táo ngon");
+    }
+
+}
 </script>
 </html>
