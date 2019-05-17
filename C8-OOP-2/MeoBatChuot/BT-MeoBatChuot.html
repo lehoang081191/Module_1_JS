@@ -14,7 +14,7 @@
 <div id="tom">
     <div id="t1"></div>
     <div id="t2"></div>
-    <input type="button" value="BẮT CHUỘT">
+    <input type="button" value="BẮT CHUỘT" onclick="tomBatJerry()">
 </div>
 </body>
 <script>
@@ -24,9 +24,9 @@
         this.speedRat = speedRat;
         this.status = status;
         this.ratDie = function () {
-            this.weight - this.weight;
+            this.weight -= this.weight;
             return this.weight;
-        }
+        };
         this.soundRat = function () {
             alert("Chít chít chít !");
         }
@@ -39,9 +39,9 @@
         this.soundCat = function () {
             alert("meo meo meo!")
         };
-        this.catchTheRat = function () {
-            this.weight - Rat.weight;
-            return this.weight;
+        this.catchTheRat = function (rat) {
+           this.weight += rat.weight;
+            this.weight;
         }
     }
 
@@ -49,19 +49,19 @@
     document.getElementById("j1").innerHTML = jerry.name + "<br>" + "Tốc độ: " + jerry.speedRat;
     document.getElementById("j2").innerHTML = "Trọng lượng: " + jerry.weight;
     document.getElementById("j3").innerHTML = "Trạng thái: " + jerry.status;
-    let tom = new Cat("Tom", 5000, 50);
+    let tom = new Cat("Tom", 5000, 40);
     document.getElementById("t1").innerHTML = tom.name + "<br>" + "Tốc độ tối đa: " + tom.maxSpeed;
     document.getElementById("t2").innerHTML ="Trọng lượng: " + tom.weight;
     
     function tomBatJerry() {
-        if (tom.maxSpeed > jerry.speedRat){
+        if (tom.maxSpeed > jerry.speedRat && jerry.status == "còn sống"){
             jerry.soundRat();
-            tom.catchTheRat();
-            tom.soundCat();
-            jerry.statusDie();
+            tom.catchTheRat(jerry);
+            jerry.ratDie();
             document.getElementById("j2").innerHTML = "Trọng lượng: " + jerry.weight;
             document.getElementById("j3").innerHTML = "Trạng thái: " + "Đã chết";
             document.getElementById("t2").innerHTML ="Trọng lượng: " + tom.weight;
+            tom.soundCat();
         }else{
             alert("Tom ngu! Chạy chậm hơn mà đòi đi bắt chuột!")
         }

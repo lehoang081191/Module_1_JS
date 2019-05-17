@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phát triển chương trình sử dụng Remote để điều khiển Tivi</title>
+</head>
+<body>
+
+</body>
+<script>
+    function Tivi(channel,volume,status) {
+        this.channel = channel;
+        this.volume = volume;
+        this.status = status;
+        this.status = function () {
+            if (this.status){
+                return "Tivi đang bật";
+            }
+            if (!this.status) {
+                return "Tivi đã tắt";
+            }
+        };
+        this.t
+
+    }
+
+    function Remote(model) {
+        this.model = model;
+        this.setTivi = function (tivi) {
+            this.tivi = tivi;
+        };
+        this.setKenh = function (kenh) {
+            this.tivi.kenh = kenh;
+        };
+        this.status
+
+    }
+    
+    function Tivi(channel,volume,status) {
+       this.chanel = channel;
+       this.volume = volume;
+       this.status = status;
+    }
+</script>
+</html>
