@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phát triển ứng dụng mô phỏng lại quá trình mèo bắt chuột và ăn chuột</title>
+</head>
+<body>
+<div id="jerry">
+    <div id="j1"></div>
+    <div id="j2"></div>
+    <div id="j3"></div>
+</div>
+<hr>
+<div id="tom">
+    <div id="t1"></div>
+    <div id="t2"></div>
+    <input type="button" value="BẮT CHUỘT">
+</div>
+</body>
+<script>
+    function Rat(name, weight, speedRat, status) {
+        this.name = name;
+        this.weight = weight;
+        this.speedRat = speedRat;
+        this.status = status;
+        this.ratDie = function () {
+            this.weight - this.weight;
+            return this.weight;
+        }
+        this.soundRat = function () {
+            alert("Chít chít chít !");
+        }
+    }
+
+    function Cat(name, weight, maxSpeed) {
+        this.name = name;
+        this.weight = weight;
+        this.maxSpeed = maxSpeed;
+        this.soundCat = function () {
+            alert("meo meo meo!")
+        };
+        this.catchTheRat = function () {
+            this.weight - Rat.weight;
+            return this.weight;
+        }
+    }
+
+    let jerry = new Rat("Jerry", 200, 20, "còn sống");
+    document.getElementById("j1").innerHTML = jerry.name + "<br>" + "Tốc độ: " + jerry.speedRat;
+    document.getElementById("j2").innerHTML = "Trọng lượng: " + jerry.weight;
+    document.getElementById("j3").innerHTML = "Trạng thái: " + jerry.status;
+    let tom = new Cat("Tom", 5000, 50);
+    document.getElementById("t1").innerHTML = tom.name + "<br>" + "Tốc độ tối đa: " + tom.maxSpeed;
+    document.getElementById("t2").innerHTML ="Trọng lượng: " + tom.weight;
+    
+    function tomBatJerry() {
+        if (tom.maxSpeed > jerry.speedRat){
+            jerry.soundRat();
+            tom.catchTheRat();
+            tom.soundCat();
+            jerry.statusDie();
+            document.getElementById("j2").innerHTML = "Trọng lượng: " + jerry.weight;
+            document.getElementById("j3").innerHTML = "Trạng thái: " + "Đã chết";
+            document.getElementById("t2").innerHTML ="Trọng lượng: " + tom.weight;
+        }else{
+            alert("Tom ngu! Chạy chậm hơn mà đòi đi bắt chuột!")
+        }
+    }
+</script>
+</html>

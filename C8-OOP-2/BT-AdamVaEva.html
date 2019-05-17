@@ -3,19 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva</title>
+    <style>
+        .main{
+            font-family: "Segoe UI";
+            font-size: 20px;
+            color: #3f51b5;
+            margin-left: 50px;
+        }
+        .button{
+            font-family: "Segoe UI";
+            font-size: 20px;
+            color:white;
+            background-color: #e91e63;
+            width: 50px;
+            border-style: none;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-<div id="apple"></div>
-<hr>
-<div id="adamInfo"></div>
-<div id="adamWeight"></div>
-<input type="button" value ="Ăn" onclick="adamEat()">
-<hr>
-<div id="evaInfo"></div>
-<div id="evaWeight"></div>
-<input type="button" value="Ăn" onclick="evaEat()">
+
+<div class="main">
+    <div id="apple"></div>
+    <hr>
+    <div id="adamInfo"></div>
+    <div id="adamWeight"></div>
+    <input class="button" type="button" value ="Ăn" onclick="adamEat()">
+    <hr>
+    <div id="evaInfo"></div>
+    <div id="evaWeight"></div>
+    <input class="button" type="button" value="Ăn" onclick="evaEat()">
+</div>
 </body>
 <script>
+
 let Apple = function (weight) {
     this.weight = weight;
     this.decrease = function () {
@@ -65,22 +86,22 @@ let Human = function (name,gender,weight) {
 };
 
 let apple = new Apple(10);
-document.getElementById("apple").innerHTML = "Trọng lượng táo: " + apple.getWeight();
+document.getElementById("apple").innerHTML = "<b>Trọng lượng táo: </b>" + apple.getWeight();
 
 let Adam = new Human("Adam",true, 60);
-document.getElementById("adamInfo").innerHTML =("Tên: " + Adam.getName() + "<br>" + "Giới tính: " + Adam.isMale() + "<br>");
-document.getElementById("adamWeight").innerHTML = "Trọng lượng: " + Adam.getHumanWeight();
+document.getElementById("adamInfo").innerHTML =("<b>Tên:</b> " + Adam.getName() +  "<br>" + "<b>Giới tính: </b>" + Adam.isMale() + "<br>");
+document.getElementById("adamWeight").innerHTML = "<b>Trọng lượng: </b>" + Adam.getHumanWeight();
 
 let Eva = new Human("Eva",false,45);
-document.getElementById("evaInfo").innerHTML =("Tên: " + Eva.getName() + "<br>" + "Giới tính: " + Eva.isMale() + "<br>");
-document.getElementById("evaWeight").innerHTML = "Trọng lượng: " + Eva.getHumanWeight();
+document.getElementById("evaInfo").innerHTML =("<b>Tên:</b> " + Eva.getName() +  "<br>" + "<b>Giới tính: </b>" + Eva.isMale() + "<br>");
+document.getElementById("evaWeight").innerHTML = "<b>Trọng lượng: </b>" + Eva.getHumanWeight();
 
 function adamEat() {
     if (apple.getWeight()>0){
         Adam.eat();
         apple.decrease();
-        document.getElementById("apple").innerHTML = "Trọng lượng táo: " + apple.getWeight();
-        document.getElementById("adamWeight").innerHTML = "Trọng lượng: " + Adam.getHumanWeight();
+        document.getElementById("apple").innerHTML = "<b>Trọng lượng táo: </b>" + apple.getWeight();
+        document.getElementById("adamWeight").innerHTML = "<b>Trọng lượng: </b>" + Adam.getHumanWeight();
     }else{
         alert("Hết táo rồi");
     }
@@ -91,8 +112,8 @@ function evaEat() {
     if (apple.getWeight()>0){
         Eva.eat();
         apple.decrease();
-        document.getElementById("apple").innerHTML = "Trọng lượng táo: " + apple.getWeight();
-        document.getElementById("evaWeight").innerHTML = "Trọng lượng: " + Eva.getHumanWeight();
+        document.getElementById("apple").innerHTML = "<b>Trọng lượng táo: </b>" + apple.getWeight();
+        document.getElementById("evaWeight").innerHTML = "<b>Trọng lượng: </b>" + Eva.getHumanWeight();
     }else{
         alert("Hết táo rồi");
     }

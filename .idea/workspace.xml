@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C8-OOP-2/BT-AdamVaEva.html" beforeDir="false" afterPath="$PROJECT_DIR$/C8-OOP-2/BT-AdamVaEva.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/C8-OOP-2/BT-CongTac&amp;BongDen/BT-CongTacVaBongDen.html" beforeDir="false" afterPath="$PROJECT_DIR$/C8-OOP-2/BT-CongTac&amp;BongDen/BT-CongTacVaBongDen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C8-OOP-2/TH-MoPhongĐenPin.html" beforeDir="false" afterPath="$PROJECT_DIR$/C8-OOP-2/TH-MoPhongĐenPin.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,35 +16,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
-          <provider selected="true" editor-type-id="text-editor" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C8-OOP-2/MeoBatChuot/BT-MeoBatChuot.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C8-OOP-2/BT-AdamVaEva.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C8-OOP-2/BT-CongTac&amp;BongDen/BT-CongTacVaBongDen.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C8-OOP-2/TH-MoPhongĐenPin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+            <state relative-caret-position="-607">
+              <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -70,8 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-LuyenTapMang01/bai05.html" />
-        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/BT-LuyenTapMang02/bai06.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/DemoFunction.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/TH-TaoVaGoiHam.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/TH-ChuyenDoiNhietDo.html" />
@@ -116,11 +101,13 @@
         <option value="$PROJECT_DIR$/C8-OOP-2/BT-GameDonGian-DiChuyenDoiTuong/index.html" />
         <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/Good-Fast-Cheap.html" />
         <option value="$PROJECT_DIR$/C8-OOP-2/Example.html" />
-        <option value="$PROJECT_DIR$/C8-OOP-2/BT-AdamVaEva.html" />
         <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" />
         <option value="$PROJECT_DIR$/C8-OOP-2/BT-CongTacVaBongDen.html" />
         <option value="$PROJECT_DIR$/C8-OOP-2/TH-MoPhongĐenPin.html" />
         <option value="$PROJECT_DIR$/C8-OOP-2/BT-CongTac&amp;BongDen/BT-CongTacVaBongDen.html" />
+        <option value="$PROJECT_DIR$/C8-OOP-2/BT-AdamVaEva.html" />
+        <option value="$PROJECT_DIR$/C8-OOP-2/BT-MeoBatChuot.html" />
+        <option value="$PROJECT_DIR$/C8-OOP-2/MeoBatChuot/BT-MeoBatChuot.html" />
       </list>
     </option>
   </component>
@@ -173,6 +160,12 @@
               <item name="C8-OOP-2" type="462c0819:PsiDirectoryNode" />
               <item name="BT-GameDonGian-DiChuyenDoiTuong" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+              <item name="C8-OOP-2" type="462c0819:PsiDirectoryNode" />
+              <item name="MeoBatChuot" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -191,14 +184,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C8-OOP-2\MeoBatChuot" />
+      <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C8-OOP-2\BT-CongTac&amp;BongDen" />
+      <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C4-CAU-TRUC-LAP\TH-SuDungVongLapFor" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C7-OOP-1" />
       <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C4-CAU-TRUC-LAP\LuyenTapVongLap01" />
       <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C5-MANG-ARRAYS\TH-TaoVaThaoTacVoiMang" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C8-OOP-2\BT-CongTac&amp;BongDen" />
-      <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C4-CAU-TRUC-LAP\TH-SuDungVongLapFor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,12 +255,15 @@
       <workItem from="1557901652256" duration="1631000" />
       <workItem from="1557903465920" duration="702000" />
       <workItem from="1557905191263" duration="8718000" />
-      <workItem from="1557967589368" duration="20879000" />
+      <workItem from="1557967589368" duration="22098000" />
+      <workItem from="1558054739045" duration="6807000" />
+      <workItem from="1558074783961" duration="98000" />
+      <workItem from="1558074899071" duration="1343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291439000" />
+    <option name="totallyTimeSpent" value="300906000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,7 +278,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23288691" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21800596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -329,13 +326,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add kiem tra nam nhuan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/BT-ChuyenDoiGiuaFeedVaMeters.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/KiemTraSoNguyenTo/cach3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-545" />
@@ -362,20 +352,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/QuanLySanPham/js/script.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuanLySanPham/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#1;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/QuanLySanPham/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/QuanLySanPham/index.html" />
     <entry file="file://$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/style.css" />
     <entry file="file://$PROJECT_DIR$/C6 - HAM/BT-KiemTraTuDoiXung.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -613,9 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/C7-OOP-1/XayDungLopMobile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -623,24 +598,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C8-OOP-2/BT-AdamVaEva.html">
+    <entry file="file://$PROJECT_DIR$/C8-OOP-2/BT-CongTac&amp;BongDen/BT-CongTacVaBongDen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="714">
+          <caret line="42" column="31" lean-forward="true" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C8-OOP-2/TH-MoPhongĐenPin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C8-OOP-2/BT-CongTac&amp;BongDen/BT-CongTacVaBongDen.html">
+    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C8-OOP-2/BT-AdamVaEva.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        <state relative-caret-position="-607">
+          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C8-OOP-2/MeoBatChuot/BT-MeoBatChuot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="58" column="30" lean-forward="true" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
         </state>
       </provider>
     </entry>
