@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Validate tên của lớp học</title>
+</head>
+<body>
+
+</body>
+<script>
+    function validateNameClass(str) {
+        regexp = /^([C,A,P]{1})([0-9]{4})([G, H, I, K, L, M]{1})$/;
+
+        if (regexp.test(str)) {
+            alert(str + " Hợp lệ");
+        } else {
+            alert(str + ' không hợp lệ');
+        }
+    }
+
+    str1 = "C0318G";
+    validateNameClass(str1);
+    str2 = "M0318G"
+    validateNameClass(str2);
+    str3 = "P0323A";
+    validateNameClass(str3);
+</script>
+</html>

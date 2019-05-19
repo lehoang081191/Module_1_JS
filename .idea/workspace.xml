@@ -27,11 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/ValidateAccount.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/ValidateNameClass.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -67,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai02.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai03.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai04.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai01.html" />
@@ -118,6 +126,7 @@
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/TH-KiemTraZipCodeUSA.html" />
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/ValidateEmail.html" />
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/ValidateAccount.html" />
+        <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/ValidateNameClass.html" />
       </list>
     </option>
   </component>
@@ -237,12 +246,12 @@
       <workItem from="1558074783961" duration="98000" />
       <workItem from="1558074899071" duration="13590000" />
       <workItem from="1558104132731" duration="1596000" />
-      <workItem from="1558237395687" duration="5494000" />
+      <workItem from="1558237395687" duration="7193000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="320243000" />
+    <option name="totallyTimeSpent" value="321942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -305,7 +314,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add kiem tra nam nhuan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C7-OOP-1/BD-VeTrenCanvas.html" />
     <entry file="file://$PROJECT_DIR$/C7-OOP-1/VeDuongThang.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -618,8 +626,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/ValidateAccount.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/ValidateNameClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
         </state>
       </provider>
     </entry>
