@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Kiểm tra Mã quốc gia nước Mỹ</title>
+</head>
+<body>
+
+</body>
+<script>
+    function isUsZipCode(str) {
+        regexp = /^[0-9]{5}(?:-[0-9]{4})?$/;
+        if (regexp.test(str)){
+            return true;
+        }else{
+            return false;
+        }
+    }
+    var zipcode = "03201-2150";
+    console.log(isUsZipCode(zipcode));
+    zipcode = "7892";
+    console.log(isUsZipCode(zipcode));
+</script>
+</html>
