@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Validate account</title>
+</head>
+<body>
+
+</body>
+<script>
+    function validateAccount(str) {
+        regexp = /^[_a-z0-9]{6,}$/;
+        if (regexp.test(str)) {
+            alert(str + " Hợp lệ");
+        } else {
+            alert(str + ' không hợp lệ');
+        }
+    }
+
+    str1 = "123abc_";
+    str2 = "_abc123";
+    str3 = "______";
+    str4 = "123456";
+    str5 = "abcdefg";
+    str6 = ".@";
+    str7 = "12345";
+    str8 = "1234_";
+    str9 = "abcde ";
+    validateAccount(str1);
+    validateAccount(str2);
+    validateAccount(str3);
+    validateAccount(str4);
+    validateAccount(str5);
+    validateAccount(str6);
+    validateAccount(str7);
+    validateAccount(str8);
+    validateAccount(str9);
+
+    </script>
+</html>
