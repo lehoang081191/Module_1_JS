@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validate email</title>
+</head>
+<body>
+
+</body>
+<script>
+    function checkEmail(str) {
+        regexp = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+
+        if (regexp.test(str)) {
+            alert(str + " Hợp lệ")
+        } else {
+            alert(str + " Không hợp lệ");
+        }
+    }
+
+    str1= "a@gmail.com";
+    str2 = "ab@yahoo.com";
+    str3 = "@gmail.com";
+    str4 = "ab@gmail.@";
+    str5 = "#abc@gmail.com";
+    str6 = "abc@hotmail.com";
+    checkEmail(str1);
+    checkEmail(str2);
+    checkEmail(str3);
+    checkEmail(str4);
+    checkEmail(str5);
+    checkEmail(str6);
+
+</script>
+</html>

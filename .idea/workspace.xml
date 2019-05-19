@@ -19,10 +19,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/ValidateEmail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="138" selection-start-line="11" selection-start-column="138" selection-end-line="11" selection-end-column="138" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/TH-KiemTraZipCodeUSA.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="51">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -49,7 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C6 - HAM/BT-ChuyenDoiGiuaFeedVaMeters.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai01.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai02.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai03.html" />
@@ -100,6 +108,7 @@
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/KiemTraKyTuDauTienCoPhaiChuHoaHayKhong/index.html" />
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/KiemTraKyTuDauTienCoPhaiChuHoaHayKhong/script.js" />
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/TH-KiemTraZipCodeUSA.html" />
+        <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/ValidateEmail.html" />
       </list>
     </option>
   </component>
@@ -219,12 +228,12 @@
       <workItem from="1558074783961" duration="98000" />
       <workItem from="1558074899071" duration="13590000" />
       <workItem from="1558104132731" duration="1596000" />
-      <workItem from="1558237395687" duration="2738000" />
+      <workItem from="1558237395687" duration="4899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="317487000" />
+    <option name="totallyTimeSpent" value="319648000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -287,8 +296,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="add kiem tra nam nhuan" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/QuanLySanPham/index.html" />
-    <entry file="file://$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham/style.css" />
     <entry file="file://$PROJECT_DIR$/C6 - HAM/BT-KiemTraTuDoiXung.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -587,13 +594,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/Reg-Exp.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/ex.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/TH-KiemTraZipCodeUSA.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/ValidateEmail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="138" selection-start-line="11" selection-start-column="138" selection-end-line="11" selection-end-column="138" />
         </state>
       </provider>
     </entry>
