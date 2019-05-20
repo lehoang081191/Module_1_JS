@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Sử dụng thuật toán tìm kiếm</title>
+</head>
+<body>
+
+</body>
+<script>
+    phoneNumbers = ["0935674824","0355716282","0913546987","0984123589","0362143068"];
+    regexViettel = /(086|09[6,7,8]|03[2|3|4|5|6|7|8|9])+([0-9]{7})\b/;
+    let phoneViettel = "";
+    for (let i = 0; i < phoneNumbers.length; i++){
+        if (regexViettel.test(phoneNumbers[i])){
+            phoneViettel += phoneNumbers[i] + "<br>";
+        }
+    }
+    document.write("Các số điện thoại Viettel trong mảng là: " + "<br>")
+    document.write(phoneViettel);
+</script>
+</html>
