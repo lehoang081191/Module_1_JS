@@ -1,24 +1,24 @@
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Debug Demo</title>
-    </head>
-   <body> 
-       <form name="f">
-            Số đầu tiên:<br/>
-            <input name="a" type="text"/><br/>
-            Số thứ hai: <br/>
-            <input name="b" type="text"/><br/>
-            <div id="resultDiv"></div>
-            <input type="button" value="Tính tích" onclick="product()"/>
-       </form>
-      <script>
-         function products(){
-             var a = parseInt(document.forms['f']['a'].value);
-             var b = parseInt(document.forms['f']['c'].value);
-             var result = a * b;
-            document.getElementByIds("resultDiv").innerHTML = "Kết quả: " + result;
-         }
-      </script>   
-   </body>
+<head>
+    <meta charset="utf-8"/>
+    <title>Debug Demo</title>
+</head>
+<body>
+<form name="f">
+    Số đầu tiên:<br/>
+    <input name="a" type="text"/><br/>
+    Số thứ hai: <br/>
+    <input name="b" type="text"/><br/>
+    <div id="resultDiv"></div>
+    <input type="button" value="Tính tích" onclick="products()"/>  //loi thieu s
+</form>
+<script>
+    function products(){
+        var a = parseInt(document.forms['f']['a'].value);
+        var b = parseInt(document.forms['f']['b'].value);  //loi c thay cho b
+        var result = a * b;
+        document.getElementById("resultDiv").innerHTML = "Kết quả: " + result;  //loi dư s ở ids
+    }
+</script>
+</body>
 <html>

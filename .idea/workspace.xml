@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan" />
+    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan">
+      <change beforePath="$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/BT-debug.html" beforeDir="false" afterPath="$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/BT-debug.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -11,16 +14,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="my-new-project" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/BT-debug.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -63,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C7-OOP-1/BĐ-CanBanVeDoiTuongTrongJS.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/LuyenTapHam-01/bai05.html" />
         <option value="$PROJECT_DIR$/C7-OOP-1/BD-VeTrenCanvas.html" />
         <option value="$PROJECT_DIR$/C7-OOP-1/VeHinhTron.html" />
@@ -111,9 +124,10 @@
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai04.html" />
         <option value="$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/Tìm Giá Trị Lớn Nhất - Nhỏ Nhất.html" />
         <option value="$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/DemSoLanXuatHienCuaPhanTu.html" />
-        <option value="$PROJECT_DIR$/ex.html" />
         <option value="$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/GameĐoánSố.html" />
         <option value="$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/BT-SuDungThuatToanTimKiem.html" />
+        <option value="$PROJECT_DIR$/ex.html" />
+        <option value="$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/BT-debug.html" />
       </list>
     </option>
   </component>
@@ -269,12 +283,12 @@
       <workItem from="1558104132731" duration="1596000" />
       <workItem from="1558237395687" duration="16791000" />
       <workItem from="1558280907518" duration="599000" />
-      <workItem from="1558313485553" duration="20806000" />
+      <workItem from="1558313485553" duration="22260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="352945000" />
+    <option name="totallyTimeSpent" value="354399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,9 +303,9 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.25113463" />
+      <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.25113463" />
+      <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.25113463" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
@@ -657,10 +671,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ex.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/BT-debug.html">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
