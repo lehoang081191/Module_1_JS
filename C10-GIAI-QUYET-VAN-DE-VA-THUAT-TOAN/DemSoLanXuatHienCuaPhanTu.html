@@ -9,5 +9,36 @@
 </body>
 <script>
 
+    function printNumbers(arr) {
+        // let arr = [];
+        for (let i = 0; i < 100; i++) {
+            arr[i] = Math.floor(Math.random() * 101);
+        }
+
+        arr.sort(function (a, b) {return a - b;});
+
+        for (let i = 0; i < arr.length; i++) {
+            arr[i] += " ";
+            if (i % 10 == 9) {
+                arr[i] += "<br>";
+            }
+        }
+        return arr.join("");
+    }
+
+    function countOccurrence(arr,num) {
+        let count = 0;
+           for (let i = 0; i < arr.length; i++ ){
+               if (arr[i] == num){
+                   count++;
+               }
+           }
+           return count;
+    }
+    let array = [];
+    document.write(printNumbers(array));
+    document.write("<br>");
+    let number = parseInt(prompt("Nhập số để kiểm tra số lần xuất hiện."));
+    document.write("Số " + number + " xuất hiện trong mảng " + countOccurrence(array,number) + " lần");
 </script>
 </html>
