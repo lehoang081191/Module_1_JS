@@ -8,6 +8,18 @@
 
 </body>
 <script>
+
+    function printToScreen(arr){
+        let print ="";
+        for (let k = 0; k < arr.length; k++){
+            print += arr[k] + " ";
+            if (k % 10 == 9){
+                print += "<br>"
+            }
+        }
+        return print;
+    }
+
     function findMin(arr) {
         let min = arr[0];
         for (let i = 1; i < arr.length; i++){
@@ -16,10 +28,24 @@
         }
         return min;
     }
-
-    let num = [];
-    for (let j = 0; j < 100; j++){
-        num[i] = Math.floor(Math.random()*101);
+    function findMax(arr) {
+        let max = arr[0];
+        for (let j = 1; j < arr.length; j++ ){
+            if (arr[j] > max){
+                max = arr[j];
+            }
+        }
+        return max;
     }
+
+    let nums = [];
+    for(let k = 0; k < 100; k++){
+        nums[k] = Math.floor(Math.random() * 101);
+    }
+    document.write(printToScreen(nums));
+    document.write("<br>");
+    document.write("Giá trị lớn nhất là: " + findMax(nums)+ "<br>");
+    document.write("Giá trị nhỏ nhất là: " + findMin(nums));
+
 </script>
 </html>
