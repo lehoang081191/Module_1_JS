@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ứng Dụng Quản lý sản phẩm</title>
+</head>
+<body>
+<h3>Add New Product</h3>
+<div class="container">
+    <input type="text" id="addname" placeholder="New Product">
+    <input type="submit" value="Add" onclick="Add()">
+</div>
+<h3>Display All Product</h3>
+<table>
+    <tr>
+        <th style="text-align: left">Product Name</th>
+        <th style="text-align: right; color:green" colspan="2">
+            <p id="container"></p>
+        </th>
+    </tr>
+    <tbody id="demo"></tbody>
+</table>
+<h3>Edit Product</h3>
+<div class="container">
+    <input type="text" id="editname">
+    <input type="submit" value="Change" onclick="Change()">
+
+</div>
+</body>
+<script>
+    var sanPham = ["iPhone XS", "Samsung Galaxy S10", "LG G5 ", "Huawei Mate 7", "Sony Xperia Z6","iPhone XS Plus","Galaxy Note 10","Xiaomi Mi 7"];
+    var itemid='';
+    function displayProduct() {
+        let text = "";
+        for(let i=0;i<sanPham.length;i++){
+            text += "<tr>";
+            text += "<td id='"+i+"'>" + sanPham[i] +"</td>";
+            text += "<td>"  + "<button onclick='Edit("+i+")' >" + "edit" + "</button>" +"</td>";
+            text += "<td>" + "<button onclick='Delete("+i+")'>" + "delete" + "</button>" +"</td>";
+            text += "</tr>";
+        }
+        document.getElementById("demo").innerHTML= text;
+        document.getElementById("container").innerHTML="Product: " + sanPham.length;
+    }
+    function Add() {
+        let a = document.getElementById("addname").value;
+        sanPham.push(a);
+        displayProduct();
+        document.getElementById("addname").value=" ";
+    }
+    function Delete(item){
+        sanPham.splice(item,1);
+        displayProduct();
+    }
+    function Edit(item){
+        let b = document.getElementById(item).innerHTML;
+        document.getElementById("editname").value = b;
+        itemid=item;
+    }
+    function Change(){
+        let c = document.getElementById("editname").value;
+        document.getElementById(itemid).innerHTML= c;
+    }
+    displayProduct();
+</script>
+</html>
