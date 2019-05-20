@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 3: Đếm số nguyên âm/phụ âm trong một chuỗi</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function vowelCount(str) {
+         regexp = /[aeiou]/i;
+        let count = 0;
+        for (let  i =0 ; i < str.length; i++){
+            if (regexp.test(str[i])){
+                count++;
+            }
+        }
+        alert("Số nguyên âm trong chuỗi là: " + count);
+    }
+
+    let str1 = "tran xuan viet";
+    vowelCount(str1);
+</script>
+</html>
