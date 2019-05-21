@@ -7,4 +7,59 @@
 <body>
 
 </body>
+<script>
+    let str = "Tôi yêu ngôn ngữ lập trình Javascript";
+
+    //đếm số lần xuất hiện của chữ 'a' ở trong chuỗi trên
+    function demChuTrongChuoi() {
+        let count = 0;
+        let a = "a";
+        for (let i = 1; i < str.length; i++) {
+            if (str.charAt(i) == a)
+                count++;
+        }
+        if (count == 0)
+            alert("Không chứa ký tự a");
+        else
+            alert("Số ký tự 'a' trong chuỗi = " + count);
+    }
+
+
+    let arr = [];
+    let newStr = " ";
+    str.trim();
+    str = str + newStr;
+    let i = 0;
+    let h;
+    let k = 0;
+    console.log(k);
+    for (h = 0; h < str.length; h++) {
+        if (k < str.length - 1) {
+            k = parseInt(str.indexOf(" ", i));
+            arr[h] = str.substring(i, k);
+            i = k + 1;
+        }
+    }
+
+    //Tách chuỗi: Hãy tách chuỗi trên vào trong một mảng các chuỗi. Mỗi từ là một phần từ
+    function split() {
+
+        alert(arr);
+    }
+
+    //Đếm số lượng từ có trong chuỗi trên
+    function count() {
+
+        alert("Số lượng từ trong chuỗi là: " + arr.length);
+    }
+
+    //thay thế chữ 'Javascript' bằng chữ 'Typescript'
+    function change() {
+        let newArr = arr;
+        newArr[6] = "Typescript";
+        newArr = newArr.join(" ");
+        document.getElementById("result1").innerHTML = newArr;
+    }
+
+</script>
 </html>

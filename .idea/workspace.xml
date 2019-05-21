@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="add kiem tra nam nhuan">
-      <change beforePath="$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham.html" beforeDir="false" afterPath="$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham.html" afterDir="false" />
+    <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="lam viec voi date">
       <change beforePath="$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/DATE.html" beforeDir="false" afterPath="$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/DATE.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/MATH.html" beforeDir="false" afterPath="$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/MATH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/STRING.html" beforeDir="false" afterPath="$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/STRING.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ex.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -28,33 +28,6 @@
               <folding>
                 <element signature="n#style#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/DATE.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/MATH.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/STRING.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -126,12 +99,12 @@
         <option value="$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/GameĐoánSố.html" />
         <option value="$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/BT-SuDungThuatToanTimKiem.html" />
         <option value="$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/BT-debug.html" />
-        <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/MATH.html" />
-        <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/STRING.html" />
         <option value="$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/ỨngDungQuảnLýSảnPhẩmSử DụngMảng.html" />
         <option value="$PROJECT_DIR$/ex.html" />
         <option value="$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham.html" />
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/DATE.html" />
+        <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/MATH.html" />
+        <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/STRING.html" />
       </list>
     </option>
   </component>
@@ -152,6 +125,11 @@
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+              <item name="C6 - HAM" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,12 +257,12 @@
       <workItem from="1558280907518" duration="599000" />
       <workItem from="1558313485553" duration="24426000" />
       <workItem from="1558353560420" duration="3189000" />
-      <workItem from="1558404986882" duration="3521000" />
+      <workItem from="1558404986882" duration="6470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="363275000" />
+    <option name="totallyTimeSpent" value="366224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -299,7 +277,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.26041666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.26041666" />
       <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.25113463" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.25113463" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -345,19 +323,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add kiem tra nam nhuan" />
-    <option name="LAST_COMMIT_MESSAGE" value="add kiem tra nam nhuan" />
+    <MESSAGE value="lam viec voi date" />
+    <option name="LAST_COMMIT_MESSAGE" value="lam viec voi date" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/my_new_project$Tìm_Giá_Tr_Ln_Nht___Nh_Nht_html.dat" NAME="Tìm Giá Trị Lớn Nhất - Nhỏ Nhất.html Coverage Results" MODIFIED="1558325302736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C7-OOP-1/XayDungLopTemperature.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai09.html" />
     <entry file="file://$PROJECT_DIR$/C6 - HAM/LuyenTapHam-02/bai06.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -637,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/MATH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C6 - HAM/UngDungQuanLySanPham.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -655,10 +620,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/MATH.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="39" column="77" selection-start-line="39" selection-start-column="77" selection-end-line="39" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C6 - HAM/TH-TimGiaTriNhoNhatCuaMang.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/STRING.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/DATE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -669,13 +651,6 @@
           <folding>
             <element signature="n#style#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/DATE.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
         </state>
       </provider>
     </entry>

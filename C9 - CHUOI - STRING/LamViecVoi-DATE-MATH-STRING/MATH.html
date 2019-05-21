@@ -7,4 +7,42 @@
 <body>
 
 </body>
+<script>
+    function random0den10() {
+        document.write("số ngẫu nhiên từ 0 đến 10 là: " + Math.round(Math.random() * 10) + "<br>");
+    }
+
+    function random0den400() {
+        document.write("số ngẫu nhiên từ 0 đến 400 là: " + Math.round(Math.random() * 400) + "<br>");
+    }
+
+    function random50den100() {
+        document.write("số ngẫu nhiên từ 50 đến 100 là: " + Math.round(Math.random() * (100 - 50) + 50) + "<br>");
+    }
+
+    random0den10();
+    random0den400();
+    random50den100();
+
+    let arrNum = [5, 7, 2, 9];
+    let min = arrNum[0];
+
+    function findMin() {
+
+        for (let i = 0; i < arrNum.length; i++) {
+            if (arrNum[i] < min){
+                min = arrNum[i];
+            }
+        }
+        return min;
+    }
+
+    document.write("số nhỏ nhất của " + arrNum + " là: " + findMin() + "<br>");
+
+    function dienTichHinhTron(banKinh) {
+        let s = banKinh * banKinh * Math.PI;
+        return s;
+    }
+    document.write("Diện tích của hình tròn có bán kính 6 là: " + dienTichHinhTron(6));
+</script>
 </html>
