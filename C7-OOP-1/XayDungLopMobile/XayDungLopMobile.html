@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Xây dựng lớp mô tả điện thoại</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<table>
+    <tr>
+        <th>iPhone XS</th>
+        <th>Button</th>
+        <th>Samsung S10</th>
+        <th>Button</th>
+    </tr>
+    <tr>
+        <td id="statusIP">Trạng thái: OFF</td>
+        <td>
+            <button class="button">Bật/Tắt</button>
+        </td>
+        <td id="statusSS">Trạng thái: OFF</td>
+        <td>
+            <button class="button">Bật/Tắt</button>
+        </td>
+    </tr>
+    <tr>
+        <td id="tinhandenIP">Tin nhắn đến</td>
+        <td>
+            <button class="button">Xem</button>
+        </td>
+        <td id="tinnhandenSS">Tin nhắn đến</td>
+        <td>
+            <button class="button">Xem</button>
+        </td>
+    </tr>
+    <tr>
+        <td id="tinhandiIP">Tin nhắn đến</td>
+        <td>
+            <button class="button">Xem</button>
+        </td>
+        <td id="tinnhandiSS">Tin nhắn đến</td>
+        <td>
+            <button class="button">Xem</button>
+        </td>
+    </tr>
+    <tr>
+        <td id="soantinnhanIP">Tin nhắn đến</td>
+        <td>
+            <button class="button">Soạn tin nhắn</button>
+        </td>
+        <td id="soantinnhanSS">Tin nhắn đến</td>
+        <td>
+            <button class="button">Soạn tin nhắn</button>
+        </td>
+    </tr>
+    <tr>
+        <td id="noidungsoantinIP" hidden="hidden">...</td>
+        <td>
+            <button class="button" hidden="hidden">Gửi</button>
+        </td>
+        <td id="noidungsoantinSS" hidden="hidden">...</td>
+        <td>
+            <button class="button" hidden="hidden">Gửi</button>
+        </td>
+    </tr>
+</table>
+</body>
+<script>
+    function DienThoai() {
+        this.pin = 100;
+        this.tinNhanDangSoan = "";
+        this.tinNhanDen = [];
+        this.tinNhanDaGui = [];
+        this.status = false;
+        this.turnPhone = function () {
+            this.status = !this.status;
+        };
+
+        this.haoPin = function () {
+            if (this.pin > 0){
+                this.pin --;
+            }
+        };
+        this.checkStatus = function () {
+            if (this.status){
+                document.write("Trạng thái: bật");
+            }else{
+                document.write("Trạng thái: tắt");
+            }
+            this.haoPin;
+        };
+        this.sacPin = function () {
+            if (this.pin < 100){
+                this.pin += 5;
+            } else{
+                alert("Pin đầy");
+            }
+        };
+        this.soanTinNhan = function () {
+            
+        }
+
+    }
+</script>
+</html>
