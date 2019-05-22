@@ -9,7 +9,7 @@
 </body>
 <script>
     function isUsZipCode(str) {
-        regexp = /^[0-9]{5}(?:-[0-9]{4})?$/;
+        regexp = /^\d{5}(?:-\d{4})?$/;
         if (regexp.test(str)){
             return true;
         }else{
@@ -17,8 +17,8 @@
         }
     }
     var zipcode = "03201-2150";
-    console.log(isUsZipCode(zipcode));
+    alert(isUsZipCode(zipcode));
     zipcode = "7892";
-    console.log(isUsZipCode(zipcode));
+    alert(isUsZipCode(zipcode));
 </script>
 </html>
