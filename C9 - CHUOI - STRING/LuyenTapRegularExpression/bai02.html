@@ -5,11 +5,11 @@
     <title>Bài 2: Đếm số từ trong một chuỗi</title>
 </head>
 <body>
-<!--function wordCount(str) { var m = str.match(/[^\s]+/g) return m ? m.length : 0; }-->
+
 </body>
 <script>
+    function wordCount(str) { var m = str.match(/[^\s]+/g); return m ? m.length : 0; }
     let str = "Biệt danh của tôi là NaKun";
-    let wordCount = str.match(/(\w+)/g).length;
-    alert("Chuỗi ''" + str + " '' có " +wordCount + " từ");
+    alert("Chuỗi ''" + str + " '' có " +wordCount(str) + " từ");
 </script>
 </html>

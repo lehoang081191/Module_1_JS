@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="lam viec voi date">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C7-OOP-1/XayDungLopMobile/XayDungLopMobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/C7-OOP-1/XayDungLopMobile/XayDungLopMobile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C9 - CHUOI - STRING/TH-KiemTraZipCodeUSA.html" beforeDir="false" afterPath="$PROJECT_DIR$/C9 - CHUOI - STRING/TH-KiemTraZipCodeUSA.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai02.html" beforeDir="false" afterPath="$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai02.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,24 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C8-OOP-2/MeoBatChuot/BT-MeoBatChuot.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/KiemTraKyTuDauTienCoPhaiChuHoaHayKhong/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/KiemTraKyTuDauTienCoPhaiChuHoaHayKhong/script.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,11 +64,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/ValidatePhoneNumber.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="204">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai01.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai03.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai04.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -140,10 +157,8 @@
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/KiemTraKyTuDauTienCoPhaiChuHoaHayKhong/script.js" />
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/ValidateAccount.html" />
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/ValidateNameClass.html" />
-        <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/ValidatePhoneNumber.html" />
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai01.html" />
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/index.html" />
-        <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai02.html" />
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai03.html" />
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/ValidateEmail.html" />
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/ba04.html" />
@@ -165,6 +180,8 @@
         <option value="$PROJECT_DIR$/C7-OOP-1/XayDungLopMobile/script.js" />
         <option value="$PROJECT_DIR$/C7-OOP-1/XayDungLopMobile/XayDungLopMobile.html" />
         <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/TH-KiemTraZipCodeUSA.html" />
+        <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/ValidatePhoneNumber.html" />
+        <option value="$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai02.html" />
       </list>
     </option>
   </component>
@@ -196,6 +213,12 @@
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
               <item name="C9 - CHUOI - STRING" type="462c0819:PsiDirectoryNode" />
               <item name="KiemTraKyTuDauTienCoPhaiChuHoaHayKhong" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
+              <item name="C9 - CHUOI - STRING" type="462c0819:PsiDirectoryNode" />
+              <item name="LuyenTapRegularExpression" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
@@ -334,12 +357,12 @@
       <workItem from="1558313485553" duration="24426000" />
       <workItem from="1558353560420" duration="3189000" />
       <workItem from="1558404986882" duration="23352000" />
-      <workItem from="1558487479912" duration="1020000" />
+      <workItem from="1558487479912" duration="2031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384126000" />
+    <option name="totallyTimeSpent" value="385137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,39 +501,11 @@
     <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/Reg-Exp.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/ba04.html" />
-    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai04.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="857">
           <caret line="929" column="4" selection-start-line="929" selection-start-column="4" selection-end-line="929" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -715,8 +710,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/ValidatePhoneNumber.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="204">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
         </state>
       </provider>
     </entry>
