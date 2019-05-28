@@ -1,6 +1,4 @@
-/////// LOAD IMAGES ////////
-
-// LOAD BG IMAGE
+// Ảnh
 const BG_IMG = new Image();
 BG_IMG.src = "img/bg.jpg";
 
@@ -13,13 +11,7 @@ LIFE_IMG.src = "img/life.png";
 const SCORE_IMG = new Image();
 SCORE_IMG.src = "img/score.png";
 
-
-/////// END LOAD IMAGES ////////
-
-// ************************ //
-
-/////// LOAD SOUNDS ////////
-
+// Âm thanh
 const WALL_HIT = new Audio();
 WALL_HIT.src = "sounds/wall.mp3";
 
@@ -35,5 +27,3 @@ WIN.src = "sounds/win.mp3";
 const BRICK_HIT = new Audio();
 BRICK_HIT.src = "sounds/brick_hit.mp3";
 
-
-/////// END LOAD SOUNDS ////////

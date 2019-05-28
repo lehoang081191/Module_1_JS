@@ -1,19 +1,13 @@
-// SELECT CANVAS ELEMENT
 const cvs = document.getElementById("game");
 const ctx = cvs.getContext("2d");
-
-// // ADD BORDER TO CANVAS
-// cvs.style.border = "1px solid #0ff";
-
-// MAKE LINE THIK WHEN DRAWING TO CANVAS
 ctx.lineWidth = 3;
 
-// GAME VARIABLES AND CONSTANTS
+// Khai báo biến và hằng
 const PADDLE_WIDTH = 100;
 const PADDLE_MARGIN_BOTTOM = 50;
 const PADDLE_HEIGHT = 20;
 const BALL_RADIUS = 8;
-let LIFE = 3; // PLAYER HAS 3 LIVES
+let LIFE = 3; // có 3 mạng để
 let SCORE = 0;
 const SCORE_UNIT = 10;
 let LEVEL = 1;
@@ -29,7 +23,7 @@ const paddle = {
     width : PADDLE_WIDTH,
     height : PADDLE_HEIGHT,
     dx :5
-}
+};
 
 // Vẽ thanh chắn
 function drawPaddle(){
