@@ -7,12 +7,12 @@ const PADDLE_WIDTH = 100;
 const PADDLE_MARGIN_BOTTOM = 50;
 const PADDLE_HEIGHT = 20;
 const BALL_RADIUS = 8;
-let LIFE = 3; // có 3 mạng để
+let life = 3; // có 3 mạng để chơi
 let SCORE = 0;
 const SCORE_UNIT = 10;
-let LEVEL = 1;
+let level = 1;
 const MAX_LEVEL = 3;
-let GAME_OVER = false;
+let game_over = false;
 let leftArrow = false;
 let rightArrow = false;
 
@@ -102,7 +102,7 @@ function ballWallCollision(){
     }
     
     if(ball.y + ball.radius > cvs.height){
-        LIFE--; // chết 1 mạng
+        life--; // chết 1 mạng
         LIFE_LOST.play();
         resetBall();
     }
@@ -207,8 +207,7 @@ function showGameStats(text, textX, textY, img, imgX, imgY){
     ctx.fillStyle = "#FFF";
     ctx.font = "25px Segoe UI";
     ctx.fillText(text, textX, textY);
-    
-    // vẽ hình
+
     ctx.drawImage(img, imgX, imgY, width = 25, height = 25);
 }
 
@@ -223,16 +222,16 @@ function draw(){
     // Hiển thị điểm
     showGameStats(SCORE, 35, 25, SCORE_IMG, 5, 5);
     // Hiển thị mạng sống
-    showGameStats(LIFE, cvs.width - 25, 25, LIFE_IMG, cvs.width-55, 5); 
+    showGameStats(life, cvs.width - 25, 25, LIFE_IMG, cvs.width-55, 5); 
     // Hiển thị level
-    showGameStats(LEVEL, cvs.width/2, 25, LEVEL_IMG, cvs.width/2 - 30, 5);
+    showGameStats(level, cvs.width/2, 25, LEVEL_IMG, cvs.width/2 - 30, 5);
 }
 
 // Game over
 function gameOver(){
-    if(LIFE <= 0){
+    if(life <= 0){
         showYouLose();
-        GAME_OVER = true;
+        game_over = true;
     }
 }
 
@@ -250,16 +249,16 @@ function levelUp(){
     if(isLevelDone){
         WIN.play();
         
-        if(LEVEL >= MAX_LEVEL){
+        if(level >= MAX_LEVEL){
             showYouWin();
-            GAME_OVER = true;
+            game_over = true;
             return;
         }
         brick.row++;
         createBricks();
         ball.speed += 0.5;
         resetBall();
-        LEVEL++;
+        level++;
     }
 }
 
@@ -288,7 +287,7 @@ function loop(){
     
     update();
     
-    if(! GAME_OVER){
+    if(! game_over){
         requestAnimationFrame(loop);
     }
 }
@@ -324,7 +323,7 @@ const restart = document.getElementById("restart");
 // Nút click để chơi lại
 restart.addEventListener("click", function(){
     location.reload(); // reload the page
-})
+});
 
 // Hiển thị bạn thắng
 function showYouWin(){
@@ -337,22 +336,3 @@ function showYouLose(){
     gameover.style.display = "block";
     youlose.style.display = "block";
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
