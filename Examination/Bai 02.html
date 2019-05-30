@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 02</title>
+</head>
+<body>
+
+</body>
+<script>
+    function tryRemoveFromArray(arr, index) {
+        for (let i = 0; i < arr.length; i++) {
+            if (i === index) {
+                arr.splice(index, 1);
+            }
+        }
+        return arr;
+    }
+
+    let array = [12, 6, 3, 7, 21, 5, 7];
+    let index = parseInt(prompt("Enter a number: "));
+    document.write("[" + tryRemoveFromArray(array, index) + "]");
+</script>
+</html>

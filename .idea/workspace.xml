@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29f9f100-29e0-4362-abfa-4c4916a8b8bd" name="Default Changelist" comment="lam viec voi date">
+      <change afterPath="$PROJECT_DIR$/Examination/Bai 01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examination/Bai 02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examination/Bai 03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Examination/Bai 04.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game Đập Gạch/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/Game Đập Gạch/game.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game Đập Gạch/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Game Đập Gạch/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex.html" beforeDir="false" afterPath="$PROJECT_DIR$/ex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,41 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Game Đập Gạch/soundAndImage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Game Đập Gạch/game.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ex.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Game Đập Gạch/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="85">
+              <caret line="5" column="118" selection-start-line="5" selection-start-column="118" selection-end-line="5" selection-end-column="118" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Game Đập Gạch/game.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="171" selection-start-line="171" selection-end-line="171" />
             </state>
           </provider>
         </entry>
@@ -84,17 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/C7-OOP-1/TH-FunnyCircles.html" />
-        <option value="$PROJECT_DIR$/C8-OOP-2/ViDu-ThietKeTrongLapTrinhHuongDoiTuong.html" />
-        <option value="$PROJECT_DIR$/C8-OOP-2/BT-GameDonGian-DiChuyenDoiTuong.html" />
-        <option value="$PROJECT_DIR$/C8-OOP-2/BT-GameDonGian-DiChuyenDoiTuong/script.js" />
-        <option value="$PROJECT_DIR$/C8-OOP-2/BT-GameDonGian-DiChuyenDoiTuong/index.html" />
-        <option value="$PROJECT_DIR$/C4-CAU-TRUC-LAP/Good-Fast-Cheap.html" />
-        <option value="$PROJECT_DIR$/C8-OOP-2/Example.html" />
-        <option value="$PROJECT_DIR$/C5-MANG-ARRAYS/vidu.html" />
-        <option value="$PROJECT_DIR$/C8-OOP-2/BT-CongTacVaBongDen.html" />
-        <option value="$PROJECT_DIR$/C8-OOP-2/TH-MoPhongĐenPin.html" />
-        <option value="$PROJECT_DIR$/C8-OOP-2/BT-CongTac&amp;BongDen/BT-CongTacVaBongDen.html" />
         <option value="$PROJECT_DIR$/C8-OOP-2/BT-AdamVaEva.html" />
         <option value="$PROJECT_DIR$/C8-OOP-2/BT-MeoBatChuot.html" />
         <option value="$PROJECT_DIR$/C8-OOP-2/MeoBatChuot/BT-MeoBatChuot.html" />
@@ -133,12 +108,23 @@
         <option value="$PROJECT_DIR$/Game Đập Gạch/components.js" />
         <option value="$PROJECT_DIR$/ex.js" />
         <option value="$PROJECT_DIR$/ex.html" />
-        <option value="$PROJECT_DIR$/Game Đập Gạch/index.html" />
+        <option value="$PROJECT_DIR$/Examination/Cau1.html" />
+        <option value="$PROJECT_DIR$/Examination/ex2.html" />
+        <option value="$PROJECT_DIR$/Examination/ex4.html" />
+        <option value="$PROJECT_DIR$/baitap/bai01.html" />
+        <option value="$PROJECT_DIR$/Examination/Bai 02.html" />
+        <option value="$PROJECT_DIR$/Examination/04.html" />
+        <option value="$PROJECT_DIR$/Examination/Bai 03.html" />
+        <option value="$PROJECT_DIR$/Examination/Bai 04.html" />
+        <option value="$PROJECT_DIR$/Examination/03.html" />
+        <option value="$PROJECT_DIR$/Examination/Bai 03 -cach 2.html" />
+        <option value="$PROJECT_DIR$/Examination/Bai 01.html" />
         <option value="$PROJECT_DIR$/Game Đập Gạch/game.js" />
+        <option value="$PROJECT_DIR$/Game Đập Gạch/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="654" />
@@ -156,26 +142,6 @@
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C8-OOP-2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="C11-CaseStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-new-project" type="462c0819:PsiDirectoryNode" />
-              <item name="Game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-new-project" type="b2602c69:ProjectViewProjectNode" />
@@ -200,17 +166,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WORKSPACE - DATABASE\Bootcamp Preparation\my-new-project\C7-OOP-1\XayDungLopMobile" />
-      <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C8-OOP-2\MeoBatChuot" />
-      <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C8-OOP-2\BT-CongTac&amp;BongDen" />
-      <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C4-CAU-TRUC-LAP\TH-SuDungVongLapFor" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C9 - CHUOI - STRING\LuyenTapRegularExpression" />
       <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C7-OOP-1" />
       <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C4-CAU-TRUC-LAP\LuyenTapVongLap01" />
       <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C5-MANG-ARRAYS\TH-TaoVaThaoTacVoiMang" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WORKSPACE - DATABASE\Bootcamp Preparation\my-new-project\C7-OOP-1\XayDungLopMobile" />
+      <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C8-OOP-2\MeoBatChuot" />
+      <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C8-OOP-2\BT-CongTac&amp;BongDen" />
+      <recent name="D:\WORKSPACE - DATABASE\CodeGym\my-new-project\C4-CAU-TRUC-LAP\TH-SuDungVongLapFor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,12 +285,14 @@
       <workItem from="1558919053956" duration="3323000" />
       <workItem from="1559005739976" duration="12410000" />
       <workItem from="1559092276573" duration="2105000" />
-      <workItem from="1559097122910" duration="1390000" />
+      <workItem from="1559097122910" duration="3324000" />
+      <workItem from="1559129417334" duration="10711000" />
+      <workItem from="1559181885477" duration="11355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="426559000" />
+    <option name="totallyTimeSpent" value="450559000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -339,7 +307,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.24925596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.23660715" />
       <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.25113463" />
       <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.25113463" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -392,88 +360,6 @@
     <SUITE FILE_PATH="coverage/my_new_project$Tìm_Giá_Tr_Ln_Nht___Nh_Nht_html.dat" NAME="Tìm Giá Trị Lớn Nhất - Nhỏ Nhất.html Coverage Results" MODIFIED="1558325302736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LamViecVoi-DATE-MATH-STRING/MATH.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="77" selection-start-line="39" selection-start-column="77" selection-end-line="39" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/BT-SuDungThuatToanTimKiem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/ValidatePhoneNumber.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C9 - CHUOI - STRING/LuyenTapRegularExpression/bai02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C10-GIAI-QUYET-VAN-DE-VA-THUAT-TOAN/GameĐoánSố.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapVoiCauTrucIfElse/ex01.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai12.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai11.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai10.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai08.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai07.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien02/bai05.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/Good-Fast-Cheap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2397" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/TH-KiemTraNamNhuan/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTap-If-Else-If/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai01.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai02.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai03.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai04.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai05.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/LuyenTapCauTrucDieuKien01/bai06.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -510,9 +396,6 @@
     <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/LuyenTapVongLap01/bai06.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/LuyenTapVongLap01/bai07.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/LuyenTapVongLap01/bai08.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -547,19 +430,86 @@
     <entry file="file://$PROJECT_DIR$/C3-CAUTRUCDIEUKIEN/KiemTraNamNhuan/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Game/GameDapGach.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Game/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="43" column="22" selection-end-line="118" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Game Đập Gạch - Breakout Brick/index.html" />
     <entry file="file://$PROJECT_DIR$/Game Đập Gạch/components.js" />
     <entry file="file://$PROJECT_DIR$/ex.js" />
+    <entry file="file://$PROJECT_DIR$/ex.html" />
+    <entry file="file://$PROJECT_DIR$/Game/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game/GameDapGach.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examination/Cau1.html" />
+    <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/KiemTraSoNguyenTo/cach4-cua-Anh-Khanh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examination/ex3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C4-CAU-TRUC-LAP/LuyenTapVongLap01/bai07.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/BT-LuyenTapMang01/bai07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examination/ex2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C5-MANG-ARRAYS/TH-TimGiaTriLonNhatTrongMang.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examination/ex1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopDate.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C7-OOP-1/TH-FunnyCircles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C7-OOP-1/TH-XayDungLopHinhChuNhat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/C7-OOP-1/VeDuongThang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examination/ex4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Game Đập Gạch/soundAndImage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -567,27 +517,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ex.html">
+    <entry file="file://$PROJECT_DIR$/baitap/bai01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="289">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Game Đập Gạch/index.html">
+    <entry file="file://$PROJECT_DIR$/Examination/04.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="339">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Examination/03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examination/Bai 03 -cach 2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examination/Bai 04.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examination/Bai 03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examination/Bai 01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Examination/Bai 02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Game Đập Gạch/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="102">
+          <caret line="171" selection-start-line="171" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game Đập Gạch/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="118" selection-start-line="5" selection-start-column="118" selection-end-line="5" selection-end-column="118" />
+          <folding>
+            <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

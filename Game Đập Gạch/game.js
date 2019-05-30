@@ -1,6 +1,6 @@
 const cvs = document.getElementById("game");
 const ctx = cvs.getContext("2d");
-ctx.lineWidth = 3;
+
 
 // Khai báo biến và hằng
 const PADDLE_WIDTH = 100;
@@ -29,9 +29,6 @@ const paddle = {
 function drawPaddle(){
     ctx.fillStyle = "#FF00FF";
     ctx.fillRect(paddle.x, paddle.y, paddle.width, paddle.height);
-    
-    // ctx.strokeStyle = "#ffcd05";
-    // ctx.strokeRect(paddle.x, paddle.y, paddle.width, paddle.height);
 }
 
 // Điều khiển thanh chắn
@@ -72,14 +69,12 @@ const ball = {
 // Vẽ quả bóng
 function drawBall(){
     ctx.beginPath();
-    
     ctx.arc(ball.x, ball.y, ball.radius, 0, Math.PI*2);
     ctx.fillStyle = "#00FF00";
     ctx.fill();
     
     ctx.strokeStyle = "#2e3548";
     ctx.stroke();
-    
     ctx.closePath();
 }
 
@@ -89,7 +84,7 @@ function moveBall(){
     ball.y += ball.dy;
 }
 
-// Hàm xử lý va cham của bóng
+// Hàm xử lý va cham của bóng - tường
 function ballWallCollision(){
     if(ball.x + ball.radius > cvs.width || ball.x - ball.radius < 0){
         ball.dx = - ball.dx;
@@ -129,8 +124,7 @@ function ballPaddleCollision(){
         
         // Tính toán góc của bóng
         let angle = collidePoint * Math.PI/3;
-            
-            
+
         ball.dx = ball.speed * Math.sin(angle);
         ball.dy = - ball.speed * Math.cos(angle);
     }
@@ -175,9 +169,7 @@ function drawBricks(){
             if(b.status){
                 ctx.fillStyle = brick.fillColor;
                 ctx.fillRect(b.x, b.y, brick.width, brick.height);
-                
-                // ctx.strokeStyle = brick.strokeColor;
-                // ctx.strokeRect(b.x, b.y, brick.width, brick.height);
+
             }
         }
     }
@@ -239,7 +231,7 @@ function gameOver(){
 function levelUp(){
     let isLevelDone = true;
     
-    // ckiểm tra xem tất cả các viên gạch có bị vỡ không
+    // kiểm tra xem tất cả các viên gạch có bị vỡ không
     for(let r = 0; r < brick.row; r++){
         for(let c = 0; c < brick.column; c++){
             isLevelDone = isLevelDone && ! bricks[r][c].status;

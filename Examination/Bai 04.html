@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 04</title>
+</head>
+<body>
+<canvas id="myCanvas" width="300" height="200" style="border: 1px solid #d3d3d3;"></canvas>
+</body>
+<script>
+    let ctx = document.getElementById("myCanvas").getContext("2d");
+
+    class Rectangle {
+        constructor(x, y, width, height, color) {
+            this.x = x;
+            this.y = y;
+            this.width = width;
+            this.height = height;
+            this.color = color;
+        }
+
+        render() {
+            ctx.rect(this.x, this.y, this.width, this.height);
+            ctx.fillStyle = this.color;
+            ctx.fill();
+        }
+    }
+
+    let rectangle = new Rectangle(10, 10, 200, 100, "#000000");
+    rectangle.render();
+</script>
+</html>

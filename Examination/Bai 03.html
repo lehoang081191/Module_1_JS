@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 03</title>
+</head>
+<body>
+
+</body>
+<script>
+    function isPrime(num) {
+        if (num < 2) {
+            return false;
+        } else {
+            for (let i = 2; i < Math.sqrt(num); i++) {
+                if (num % i === 0) {
+                    return false;
+                    break;
+                }
+            }
+        }
+        return true;
+    }
+
+    let number = prompt("Enter a number: ");
+    alert(isPrime(number));
+
+</script>
+</html>
